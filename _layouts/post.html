@@ -46,19 +46,19 @@ archive: false
 
         <footer class="post-footer">
         	<!-- If we want to display author's name and bio -->
-            <!-- {% if site.author %} -->
-            <!--     <section class="author"> -->
-            <!--     	<header> <a href="{{ site.baseurl }}"> <img class="profile" src="/assets/images/profile.png" alt="Author's profile picture"></a></header> -->
-            <!--     	<article> -->
-            <!--     		<1!-- Author Name --1> -->
-            <!--         	<h4> {{ site.author }} </h4> -->
-            <!--         	<1!-- Author Bio --1> -->
-            <!--         	<p> --> 
-            <!--           <a href="mailto:zealotrush@gmail.com">zealotrush@gmail.com</a> -->
-            <!--         	</p> -->
-            <!--         </article> -->
-            <!--     </section> -->                
-            <!-- {% endif %} -->
+            {% if site.author %}
+                <section class="author">
+                	<header> <a href="{{ site.baseurl }}"> <img class="profile" src="/assets/images/profile.png" alt="Author's profile picture"></a></header>
+                	<article>
+                		<!-- Author Name -->
+                    	<h4> {{ site.author }} </h4>
+                    	<!-- Author Bio -->
+                    	<p> 
+                      An audio algorithm developer. Love coding, love singing, love thinking, love Protoss... Know me better by following me on <a href="http://weibo.com/u/1684658154">Sina Weibo</a>, or contact me via <a href="mailto:zealotrush@gmail.com">Email</a>.
+                    	</p>
+                    </article>
+                </section>                
+            {% endif %}
 
             <!-- <section class="share"> -->
             <!--     <h4>Share this post</h4> -->
@@ -81,7 +81,7 @@ archive: false
             	<div id="disqus_thread"></div>
             	<script type="text/javascript">
 
-            	    var disqus_shortname = 'zihuatanejo'; 
+                var disqus_shortname = 'zihuatanejo'; 
             		var disqus_developer = 0; // developer mode is on
             	    (function() {
             	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
