@@ -205,8 +205,8 @@ blockquote {
 }
 
 blockquote p {
-    margin: 0.8em 0;
-    font-style: italic;
+    margin: 0.8em 2.0em;
+    /* font-style: italic; */
 }
 
 blockquote small {
