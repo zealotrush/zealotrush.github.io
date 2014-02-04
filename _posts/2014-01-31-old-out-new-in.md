@@ -5,4 +5,7 @@ date: 2014-01-31 00:32:21
 category: poet
 ---
 
-![jiangchengzi-oldoutnewin](/assets/images/jiangchengzi.png)
+小城清夜入眠迟  
+所思谁，几人知  
+终于若此，今后再无时  
+可笑残心燃未尽，歌一曲，乱填词  
