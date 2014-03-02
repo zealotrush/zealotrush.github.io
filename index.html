@@ -33,17 +33,9 @@ about: 'about.html'
 
         </header>
 
-        <!-- <section class="post-excerpt"> -->
-        <!--   {{post.excerpt}}......<BR> -->
-        <!--   <p><a href="{{ post.url }}"> Read more... </a></p> -->
-        <!-- </section> -->
-
         <section class="post-excerpt">
-          {% if post.content contains '<!--more-->' %}
-            {{ post.content | split:'<!--more-->' | first }} ……
-          {% else %}
-            {{ post.content }}
-          {% endif %}
+          {{post.excerpt}}……<BR>
+          <p><a href="{{ post.url }}"> [Read more...] </a></p>
         </section>
 
     </article>
