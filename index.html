@@ -40,7 +40,7 @@ about: 'about.html'
 
         <section class="post-excerpt">
           {% if post.content contains '<!--more-->' %}
-            {{ post.content | split:'<!--more-->' | first }} ...
+            {{ post.content | split:'<!--more-->' | first }} ……
           {% else %}
             {{ post.content }}
           {% endif %}
