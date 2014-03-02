@@ -58,7 +58,7 @@ Windows 7 有个不错的防火墙。我尝试将 `matlab.exe` 加入了 Inbound
 - cd 至 MATLAB 安装路径
 - 执行 `addfwrs block_matlab_all`
 
-其中，block_matlab_all 是规则名称的前缀，可以任意修改，目的是为了方便以后在防火墙规则中查找。
+其中，block\_matlab\_all 是规则名称的前缀，可以任意修改，目的是为了方便以后在防火墙规则中查找。
 
 等批处理运行完毕，再去试着启动 MATLAB 吧！生活，原来可以更美的！
 
