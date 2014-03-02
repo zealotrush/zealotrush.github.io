@@ -1,0 +1,24 @@
+@echo off
+REM      BATCH FILE CREATED BY CHARLES DE HAVILLAND 20/02/2012
+cls
+If "%1"=="" GOTO :norulename
+SET RULENAME=%1
+ECHO Create in/out firewall rules for all *.exe files with the rulename of "%RULENAME%" ?
+ECHO.
+ECHO.
+
+pause
+Echo.
+FOR /r %%G in ("*.exe") Do (@echo %%G
+NETSH advfirewall firewall add rule name="%RULENAME%-%%~nxG" dir=in program="%%G" action="block" enable="yes")
+FOR /r %%G in ("*.exe") Do (@echo %%G
+NETSH advfirewall firewall add rule name="%RULENAME%-%%~nxG" dir=out program="%%G" action="block" enable="yes")
+Echo.
+Echo done.
+Echo.
+GOTO :Finish
+:norulename
+Echo Error! - You did not specify a Rulename type - Addfwrs "Rulename"
+Echo.
+:Finish
+Echo Batch ended...
