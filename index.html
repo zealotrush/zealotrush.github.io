@@ -34,8 +34,12 @@ about: 'about.html'
         </header>
 
         <section class="post-excerpt">
-          {{post.excerpt}}……<BR>
-          <p><a href="{{ post.url }}"> [Read more...] </a></p>
+          {% if post.content == post.excerpt %}
+            {{post.content}}
+          {% else %}
+            {{post.excerpt}}……<BR>
+            <p><a href="{{ post.url }}"> [Read more...] </a></p>
+          {% endif %}
         </section>
 
     </article>
