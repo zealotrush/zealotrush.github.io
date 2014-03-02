@@ -32,12 +32,14 @@ date: 2014-03-02 12:01:24
 
 等等等等，可惜无一奏效。直到在 MathWorks 论坛中找到[这篇帖子][post]，有人提到「断网」这个方案，问题才算有了眉目。经测，断网后 MATLAB 启动的确飞快！
 
-所以，问题解决？不！
+所以，问题解决？不行！断网太麻烦了！
 
 尝试
 ----
 
-Windows 7 有个不错的防火墙。我尝试将 `matlab.exe` 加入了 Inbound 和 Outbound 的阻止名单，但没有效果。想到之前有人提到 License 问题，我又把 MATLAB 的 License 管理工具 `lmtools.exe` 也加入阻止名单，依旧无果。MATLAB 安装目录下共有156个可执行文件，而 Windows 7 的防火墙没有提供批量添加规则的功能……
+用防火墙将 MATLAB 屏蔽，让它无法联网就行了。
+
+Windows 7 有个不错的防火墙。我尝试将 `matlab.exe` 加入了 Inbound 和 Outbound 的阻止名单，但没有效果。想到之前有人提到 License 问题，我又把 MATLAB 的 License 管理工具 `lmtools.exe` 也加入阻止名单，依旧无果。MATLAB 安装目录下共有156个可执行文件，而 Windows 7 的防火墙没有提供批量添加规则的功能，总不能一个一个手动添加吧。
 
 解决
 ----
