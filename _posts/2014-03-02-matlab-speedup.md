@@ -52,15 +52,17 @@ Windows 7 有个不错的防火墙。我尝试将 `matlab.exe` 加入了 Inbound
 
 以下是具体的步骤：
 
-- 下载文件 [addfwrs.bat.txt][bat]
-- 把该文件重命名为 addfwrs.bat
-- 把该文件移动至 MATLAB 安装路径下，例如：`C:\Program Files\MATLAB\R2012a`
+- 下载文件 [`addfwrs.bat.txt`][bat]
+- 把该文件重命名为 `addfwrs.bat`
+- 把该文件移动至 MATLAB 安装路径下，例如：  
+    `C:\Program Files\MATLAB\R2012a`
 - 用 Administrator 权限打开命令行
-  - 点击「开始」，键入 `cmd`，在 `cmd.exe` 上右键，选择 Run as administrator
+  - 点击 `开始`，键入 `cmd`，在 `cmd.exe` 上右键，选择 Run as administrator
 - cd 至 MATLAB 安装路径
-- 执行 `addfwrs block_matlab_all`
+- 执行如下命令  
+    `addfwrs block_matlab_all`
 
-其中，block\_matlab\_all 是规则名称的前缀，可以任意修改，目的是为了方便以后在防火墙规则中查找。
+其中，`block_matlab_all` 是规则名称的前缀，可以任意修改，目的是为了方便以后在防火墙规则中查找。
 
 等批处理运行完毕，再去试着启动 MATLAB 吧！原来生活可以更美的！
 
