@@ -16,7 +16,7 @@ date: 2014-03-02 12:01:24
 诊断
 ----
 
-如果你想知道 MATLAB 启动究竟有多慢，可以使用 `-timing` flag。请运行如下命令，
+如果你想知道 MATLAB 启动究竟有多慢，可以使用 `-timing` flag。请在 `cmd` 中运行如下命令，
 
     matlab -timing
 
