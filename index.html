@@ -32,10 +32,20 @@ about: 'about.html'
             <h2 class="post-title"><a href="{{ post.url}}">{{ post.title }}</a></h2>
 
         </header>
+
+        <!-- <section class="post-excerpt"> -->
+        <!--   {{post.excerpt}}......<BR> -->
+        <!--   <p><a href="{{ post.url }}"> Read more... </a></p> -->
+        <!-- </section> -->
+
         <section class="post-excerpt">
-          {{post.excerpt}}......<BR>
-          <p><a href="{{ post.url }}"> Read more... </a></p>
+          {% if post.content contains '<!--more-->' %}
+            {{ post.content | split:'<!--more-->' | first }}
+          {% else %}
+            {{ post.content }}
+          {% endif %}
         </section>
+
     </article>
 
     {% endfor %}
