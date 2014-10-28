@@ -2,7 +2,8 @@ name: Zihuatanejo
 description: A warm place with no memory
 meta_description: "Ben's Blog"
 
-markdown: redcarpet
+# markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 logo: false
 paginate: 15
