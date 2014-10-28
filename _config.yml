@@ -10,6 +10,6 @@ paginate: 15
 baseurl: /
 domain_name: 'http://wangbei.com'
 
-# # Details for the RSS feed generator
-# url:            'blog url'
+# Details for the RSS feed generator
+url:            ''
 author:         'Wang Bei'
