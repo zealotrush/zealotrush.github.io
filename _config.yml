@@ -1,14 +1,14 @@
 name: Zihuatanejo
-description: A warm place with no memory
+description: A warm place with no memory.
 meta_description: "Ben's Blog"
 
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 logo: false
 paginate: 15
+baseurl: /
+domain_name: 'http://wangbei.com'
 
-# Details for the RSS feed generator
-url:            'zealotrush.github.io'
-author:         'Ben Wang'
-
-excerpt_separator: <!--more-->
+# # Details for the RSS feed generator
+# url:            'blog url'
+author:         'Wang Bei'

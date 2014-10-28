@@ -5,7 +5,7 @@ Feel free to fork, change, modify and re-use it.
 
 ## How to use it
 
-Simply clone this repository, and then run `jekyll -w serve` inside the directory.
+Simply clone this repository, and then run `jekyll serve` inside the directory.
 
 Kasper theme includes:
 
@@ -23,8 +23,8 @@ Kasper theme includes:
 
 
 ## Thanks 
-Most of the work as been already done by the Ghost team, I've just ported Casper to Jekyll. 
-I've also added few things for specifid to Jekyll and some minor style changes.
+Most of the work has been already done by the Ghost team, I've just ported Casper to Jekyll. 
+I've also added few things specific to Jekyll and some minor style changes.
 
 ## Copyright & License
 
