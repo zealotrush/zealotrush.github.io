@@ -40,6 +40,9 @@ about: 'about.html'
         <header class="post-header">
             <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         </header>
+        <section class="post-excerpt">
+            {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
+        </section>
         <footer class="post-meta">
        <!--      {% if site.author %}
                 <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
@@ -52,9 +55,6 @@ about: 'about.html'
                 {{ post.date | date_to_string }}
             </time>
         </footer>
-        <section class="post-excerpt">
-            {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
-        </section>
     </article>
 
     <!-- Capser below -->
