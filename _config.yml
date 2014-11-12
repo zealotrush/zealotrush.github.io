@@ -8,6 +8,7 @@ highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
+permalink: /:year/:month/:day/:title
 domain_name: 'http://wangbei.com'
 
 # Details for the RSS feed generator

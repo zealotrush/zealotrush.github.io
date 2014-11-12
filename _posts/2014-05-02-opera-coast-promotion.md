@@ -2,12 +2,11 @@
 layout: post
 title: "Opera Coast 推荐"
 date: 2014-05-02 21:48:59
-category: software
+category: essay
+excerpt: <p>Opera Coast 是 Opera 出品的一款 iOS 平台下的浏览器，最近更新了 iPhone 版本。在试用了几分钟之后，我便果断将它请进了手机底部的常备栏。在试用了几个小时之后，我决定要为它写一篇软文。</p>
 ---
 
 [Opera Coast][1] 是 Opera 出品的一款 iOS 平台下的浏览器，最近更新了 iPhone 版本。在试用了几分钟之后，我便果断将它请进了手机底部的常备栏。在试用了几个小时之后，我决定要为它写一篇软文。
-
-<!--more-->
 
 > ——报告老师，他[破坏中文的纯洁性][2]！
 

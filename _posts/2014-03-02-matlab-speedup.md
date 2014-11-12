@@ -2,19 +2,17 @@
 layout: post
 title: "MATLAB 启动加速"
 date: 2014-03-02 12:01:24
+category: essay
+excerpt: <p>我真傻！真的！我一直以为 MATLAB 本就应该这么慢的……如果你也像我一样，饱受 MATLAB 启动速度的煎熬，那么这篇博客就是专门为你而写。本文将手把手教你怎样让 MATLAB 启动加速。Here we go!</p>
 ---
 
 我真傻！真的！我一直以为 MATLAB 本就应该这么慢的……如果你也像我一样，饱受 MATLAB 启动速度的煎熬，那么这篇博客就是专门为你而写。本文将手把手教你怎样让 MATLAB 启动加速。Here we go!
 
-<!--more-->
-
-声明
-----
+## 声明
 
 本文只适用于 Windows 7。对于 Windows XP 用户，我只能说声抱歉——连亲爹微软都撒手不管了，我也爱莫能助。对于 Linux/Mac 用户，这问题可能压根就不存在——至少在我这边不存在。
 
-诊断
-----
+## 诊断
 
 如果你想知道 MATLAB 启动究竟有多慢，可以使用 `-timing` flag。请在 `cmd` 中运行如下命令，
 
@@ -22,8 +20,7 @@ date: 2014-03-02 12:01:24
 
 并等待 MATLAB 完全启动。你会在 MATLAB 命令行中得到其启动耗时的详细报告。
 
-原因
-----
+## 原因
 
 我尝试搜索了一整个上午，调查 MATLAB 启动太慢的原因。结果众说纷纭，连 MathWorks 官方都没有个统一的说法。曾见到过的说法有：
 
@@ -36,15 +33,13 @@ date: 2014-03-02 12:01:24
 
 所以，问题解决？不行！断网太麻烦了！
 
-尝试
-----
+## 尝试
 
 用防火墙将 MATLAB 屏蔽，让它无法联网就行了。
 
 Windows 7 有个不错的防火墙。我尝试将 `matlab.exe` 加入了 Inbound 和 Outbound 的阻止名单，但没有效果。想到之前有人提到 License 问题，我又把 MATLAB 的 License 管理工具 `lmtools.exe` 也加入阻止名单，依旧无果。MATLAB 安装目录下共有156个可执行文件，而 Windows 7 的防火墙没有提供批量添加规则的功能，总不能一个一个手动添加吧。
 
-解决
-----
+## 解决
 
 批处理！
 
@@ -66,8 +61,7 @@ Windows 7 有个不错的防火墙。我尝试将 `matlab.exe` 加入了 Inbound
 
 等批处理运行完毕，再去试着启动 MATLAB 吧！原来生活可以更美的！
 
-参考
-----
+## 参考
 
 - [Why is R2012a Matlab so very, very slow at starting up? - MATLAB Answers - MATLAB Central][post]
 - [Charles de Havilland | LinkedIn][charles]
