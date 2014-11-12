@@ -3,7 +3,7 @@ layout: post
 title: "Rime 输入法五笔86配置"
 date: 2014-11-12 20:53:49
 category: essay
-excerpt: <p></p>
+excerpt: <p> </p>
 ---
 
 ## 添加五笔
