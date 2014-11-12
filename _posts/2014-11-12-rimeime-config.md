@@ -3,7 +3,7 @@ layout: post
 title: "Rime 输入法五笔86配置"
 date: 2014-11-12 20:53:49
 category: essay
-excerpt: <p> </p>
+excerpt: <p></p>
 ---
 
 ## 添加五笔
@@ -100,10 +100,8 @@ recognizer:
 
 在用户目录下添加 `custom_phrase.txt` 文件，编码格式需选择 **UTF-8**. 输入类似以下内容：
 
-```txt
-zealotrush@gmail.com    mail   10
-beibeiwang@msn.com  mail    9
-```
+    zealotrush@gmail.com    mail   10
+    beibeiwang@msn.com  mail    9
 
 注意，必须用 Tab 分隔，不能用空格。
 
