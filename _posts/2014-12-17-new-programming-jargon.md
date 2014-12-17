@@ -34,10 +34,6 @@ if (5 == count)
 
 海森堡 bug (Heisenbug)，一种遵循「海森堡 (Heisenberg) 测不准原理」的程序 bug。当你试图测量这个 bug 时，将不可避免地扰动它的状态，使结果产生不确定性。
 
-\\[
-\Delta{x} \Delta{p} \ge \frac \hbar 2
-\\]
-
 ## 生气的女友 bug
 
 生气的女友 bug (Mad Girlfriend Bug) 出现时，你会发现明明结果不对，程序却始终告诉你没有错误。
