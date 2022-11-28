@@ -3,10 +3,4 @@ relativeURLs = true
 languageCode = 'zh-cmn'
 title = 'Zihuatanejo'
 author = '王备'
-theme = 'color-your-world'
-
-# color-your-world parameters
-[params.style]
-  darkAccent   = "#1dbc91" # Default is "#1dbc91"
-  lightAccent  = "#1f676b" # Default is "#1f676b"
-  presets = [ "#1f676b", "#f3a530", "#902b37", "#1dbc91", "#754e85", "#7fc121", "#a8314a", "#ff7433", "#3e6728", "#c063bd" ]
+theme = 'mini'
