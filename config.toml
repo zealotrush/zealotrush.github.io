@@ -1,4 +1,4 @@
-baseurl = "//zealotrush.github.io"
+baseURL = "http://wangbei.me"
 languageCode = 'zh-cmn'
 title = 'Zihuatanejo'
 author = '王备'
