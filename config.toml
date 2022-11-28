@@ -3,6 +3,7 @@ languageCode = 'zh-cmn'
 title = 'Zihuatanejo'
 author = '王备'
 theme = 'color-your-world'
+relativeURLs = true
 
 # color-your-world parameters
 [params.style]
