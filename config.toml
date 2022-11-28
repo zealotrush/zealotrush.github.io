@@ -1,4 +1,4 @@
-baseurl = "http://zealotrush.github.io"
+baseurl = "//zealotrush.github.io"
 languageCode = 'zh-cmn'
 title = 'Zihuatanejo'
 author = '王备'
