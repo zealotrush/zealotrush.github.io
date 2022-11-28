@@ -1,9 +1,9 @@
-baseURL = "http://wangbei.me"
+baseURL = "https://wangbei.me"
+relativeURLs = true
 languageCode = 'zh-cmn'
 title = 'Zihuatanejo'
 author = '王备'
 theme = 'color-your-world'
-relativeURLs = "True"
 
 # color-your-world parameters
 [params.style]

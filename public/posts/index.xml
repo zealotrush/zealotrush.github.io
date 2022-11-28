@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zihuatanejo</title>
-    <link>http://wangbei.me/posts/</link>
+    <link>https://wangbei.me/posts/</link>
     <description></description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cmn</language>
-    <lastBuildDate>Mon, 28 Nov 2022 00:00:00 +0800</lastBuildDate><atom:link href="http://wangbei.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Nov 2022 00:00:00 +0800</lastBuildDate><atom:link href="https://wangbei.me/posts/index.xml" rel="self" type="application/rss+xml" />
       <item>
         <title>隔离日记</title>
-        <link>http://wangbei.me/posts/quarantine-diary/</link>
+        <link>https://wangbei.me/posts/quarantine-diary/</link>
         <pubDate>Mon, 28 Nov 2022 00:00:00 +0800</pubDate>
         
-        <guid>http://wangbei.me/posts/quarantine-diary/</guid>
+        <guid>https://wangbei.me/posts/quarantine-diary/</guid>
         <description>下午，接到居委会的电话通知，我「密接」了，需要被集中隔离。电话里，我小心地问：「还有别的选择吗？」答：「也可以选择居家隔离，但整栋楼都要封，门口还要安装摄像头。」好吧，你厉害，我去就是。
 说实话，对于将要到来的集中隔离，我是七分抗拒，三分好奇，心中隐约飘荡着一个知乎体的声音，「被集中隔离是一种什么样的体验？」曾经看过一段脱口秀，讲集中隔离的酒店，环境优美，房间宽敞，一周七天的伙食不但营养美味，还不重样；但又听同事说，他住的是公寓酒店，环境一般，被罩都得自己套。我忐忑地坐在大巴上，不知道迎接自己的到底是丽晶大酒店，还是丽晶宾馆。
 大巴车路过了许多酒店，宾馆，和公寓，我的心情也随着这些建筑忽上忽下，或喜或忧。车最终驶进了一个破旧的大门，门上用白灰刷着四个大字，「抗疫必胜」。夜已深了，但我仍然能清楚地看出，这里一栋楼都没有。这里是方舱！
@@ -22,10 +22,10 @@
     
       <item>
         <title>魔兽记忆碎片</title>
-        <link>http://wangbei.me/posts/shards-of-wow-memory/</link>
+        <link>https://wangbei.me/posts/shards-of-wow-memory/</link>
         <pubDate>Mon, 02 Nov 2020 00:00:00 +0800</pubDate>
         
-        <guid>http://wangbei.me/posts/shards-of-wow-memory/</guid>
+        <guid>https://wangbei.me/posts/shards-of-wow-memory/</guid>
         <description>怀旧服断断续续玩了一年多，不得不承认，无论是客观环境，还是主观心态，都回不去了。新的半年卡快要过期，不打算续了，来这已经成了荒芜之地的博客随便写点，聊作纪念。
 角色列表（按角色创建顺序，仅凭记忆）：
 （男）亡灵痛苦术士：本杰暗，50 级； （男）亡灵冰霜法师：钱德勒冰，60 级； （男）巨魔射击猎人：力巴尔，27 级； （男）牛头武器战士：肉蹄，25 级； （女）人类奥术法师：莫尼卡冰，45 级； （女）人类毁灭术士：菲比布菲，42 级； （女）暗夜兽王猎人：瑞秋格林，16 级。 太丢脸了，只有一个满级，还是个三大都没怎么去过的环保法师。
@@ -35,10 +35,10 @@
     
       <item>
         <title>杂感</title>
-        <link>http://wangbei.me/posts/zhuangbilism/</link>
+        <link>https://wangbei.me/posts/zhuangbilism/</link>
         <pubDate>Thu, 12 Dec 2019 00:00:00 +0800</pubDate>
         
-        <guid>http://wangbei.me/posts/zhuangbilism/</guid>
+        <guid>https://wangbei.me/posts/zhuangbilism/</guid>
         <description>高中住校时，某天，我和一位室友，因为什么问题争论了起来。争论是友好的，不过也很认真。正难解难分之际，另一室友说话了：争啥争，打一架！
 为此我气愤了很多年。人竟然可以无原则到这种程度，不仅公然蔑视「真理不辩不明」的真理（不服来辩），甚至主张诉诸暴力？反智如此，不可救药！
 今天，我突然明白了。他不是反智，他就是烦我们俩。
@@ -47,10 +47,10 @@
     
       <item>
         <title>打一架</title>
-        <link>http://wangbei.me/posts/anti-intellectualism/</link>
+        <link>https://wangbei.me/posts/anti-intellectualism/</link>
         <pubDate>Tue, 24 Sep 2019 00:00:00 +0800</pubDate>
         
-        <guid>http://wangbei.me/posts/anti-intellectualism/</guid>
+        <guid>https://wangbei.me/posts/anti-intellectualism/</guid>
         <description>高中住校时，某天，我和一位室友，因为什么问题争论了起来。争论是友好的，不过也很认真。正难解难分之际，另一室友说话了：争啥争，打一架！
 为此我气愤了很多年。人竟然可以无原则到这种程度，不仅公然蔑视「真理不辩不明」的真理（不服来辩），甚至主张诉诸暴力？反智如此，不可救药！
 今天，我突然明白了。他不是反智，他就是烦我们俩。
@@ -59,10 +59,10 @@
     
       <item>
         <title>那些年</title>
-        <link>http://wangbei.me/posts/days-of-our-wow-lives/</link>
+        <link>https://wangbei.me/posts/days-of-our-wow-lives/</link>
         <pubDate>Mon, 02 Sep 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://wangbei.me/posts/days-of-our-wow-lives/</guid>
+        <guid>https://wangbei.me/posts/days-of-our-wow-lives/</guid>
         <description>2005 年，魔兽世界公测开启。朋友带回了安装光盘。全村人都装上了，除了他。因为游戏最低要求 256M 内存，他的电脑只有 128M。之后，当全村人都在回音山矿洞杀狗头人的时候，他还在太平洋数码广场买内存。
 「你不能抢走我的蜡烛……」，晚上做梦都会听到这句话。
 第一次走进暴风城，我被震撼了一脸。BGM 响起的瞬间，我竟然差点落泪。此情此景，只有韩寒的大作，才能准确表达这种乡巴佬头回进城的感觉：
@@ -84,10 +84,10 @@
     
       <item>
         <title>一个程序员的婚后生活</title>
-        <link>http://wangbei.me/posts/a-programmers-married-life/</link>
+        <link>https://wangbei.me/posts/a-programmers-married-life/</link>
         <pubDate>Mon, 29 Feb 2016 00:00:00 +0800</pubDate>
         
-        <guid>http://wangbei.me/posts/a-programmers-married-life/</guid>
+        <guid>https://wangbei.me/posts/a-programmers-married-life/</guid>
         <description>老婆在外地出差，晚上微信跟我抱怨，自己想看书，而室友想看电视。电视一开，书便没法看了。
 “跟别人合住真是不爽！”老婆说。
 “这真是个好问题！”我想。
@@ -106,10 +106,10 @@
     
       <item>
         <title>七夕话题——婚姻稳定问题</title>
-        <link>http://wangbei.me/posts/marriage-stability/</link>
+        <link>https://wangbei.me/posts/marriage-stability/</link>
         <pubDate>Mon, 16 Aug 2010 00:00:00 +0800</pubDate>
         
-        <guid>http://wangbei.me/posts/marriage-stability/</guid>
+        <guid>https://wangbei.me/posts/marriage-stability/</guid>
         <description>今儿是七夕，中国的情人节。老衲晚上没有节目，只能上 blog 来扯淡。说点跟这日子多少沾边的话题吧——“婚姻稳定问题”。
 婚姻是个复杂的东西，稳定性问题哪有那么容易解决。这里要说的是一个关于“婚姻稳定”的数学模型：
 比如，现有 5 个男生和 5 个女生。他们每个人的心目中都对 5 个异性有按喜爱程度的排序（自然是萝卜青菜，各有所爱）。问：怎样为他们牵线，才能使最终得到的 5 对恋人最稳定？
@@ -124,10 +124,10 @@ A: YXZ B: ZYX C: XZY X: BAC Y: CBA Z: ACB 对于这 3 对男女来说，有三�
     
       <item>
         <title>智力题：钻石问题 & 爱情问题</title>
-        <link>http://wangbei.me/posts/diamond-problem-and-love-problem/</link>
+        <link>https://wangbei.me/posts/diamond-problem-and-love-problem/</link>
         <pubDate>Thu, 29 Jul 2010 00:00:00 +0800</pubDate>
         
-        <guid>http://wangbei.me/posts/diamond-problem-and-love-problem/</guid>
+        <guid>https://wangbei.me/posts/diamond-problem-and-love-problem/</guid>
         <description>有这样一道智力题：
 一楼到十楼的每层电梯门口都放着一颗钻石，钻石大小不一。你乘坐电梯从一楼到十楼，每层楼电梯门都会打开一次，只能拿一次钻石，问怎样才能尽可能地拿到最大的一颗？
 这道题挺难的。还是先从一道简单点的上手比较好。这是一道“爱情问题”：
@@ -144,10 +144,10 @@ A: YXZ B: ZYX C: XZY X: BAC Y: CBA Z: ACB 对于这 3 对男女来说，有三�
     
       <item>
         <title>为什么男人喜欢 big butts</title>
-        <link>http://wangbei.me/posts/why-men-like-big-butts/</link>
+        <link>https://wangbei.me/posts/why-men-like-big-butts/</link>
         <pubDate>Mon, 30 Nov 2009 00:00:00 +0800</pubDate>
         
-        <guid>http://wangbei.me/posts/why-men-like-big-butts/</guid>
+        <guid>https://wangbei.me/posts/why-men-like-big-butts/</guid>
         <description>为什么男人喜欢 big butts 呢？最近我在看一本书，《进化心理学》，其中提到了这个问题。不过，这书我还并没有看完，而且即使看过也未必都记得，即使记得也未必理解正确，所以以下内容可能出自那本书，但也可能出自我的无责任 YY。
 男人喜欢 big butts 是人类进化的结果 我们多多少少都知道进化论，适者生存，优胜劣汰。长颈鹿的脖子为什么那么长？因为当初脖子不够长的所谓长颈鹿没办法吃到高处的树叶，难以生存。只有能吃到更多树叶的长脖子的长颈鹿才得以繁衍。于是，我们今天就只能看到长脖子长颈鹿。同理，在远古时代，男人们也分各种流派，有人喜欢 big butts，而有些不那么喜欢。遗憾的是，“有足够证据表明，腰臀比率（WHR, Waist Hip Ratio）是测量女性生育状况的精确指标之一……腰臀比率较高的女性在婚后往往更难怀孕，而要怀孕也是在更大年纪的时候。”于是，选择了 big butts 的男人们，将有机会得到更多的后代，于是拥有更大的可能将自己的基因遗传下去。而另外一些不青睐 big butts 的哥们，总体来说后代较少，将自己基因保留的几率较低。经过长时间的自然选择，男人就逐渐形成了选择 big butts 的倾向。
 问题是，现如今婴儿的存活率已经不是问题，传宗接代早就已经不靠数量优势取胜了。那男人怎么还那么色眯眯地喜欢 big butts？因为毕竟人类进化是长达几百万年的历史，而人类文明的出现只有几千年历史，现代文明的出现更是不过区区数百年。男人们花了几百万年才养成的“坏习惯”，是没可能在这么短时间内就改变（进化）的。人类这种不合时宜的坏习惯还有很多，比如对于甜食的偏好。远古时代吃不饱，经常饿肚子，所以辛辛苦苦进化出了甜食偏好，以增加人类的生存能力。可到如今，吃饱肚子对大多数人已经不是问题，甜食偏好反倒会带来肥胖，以及随之而来更大可能性的心血管疾病——所以女孩们，想想减肥对于你们有多么困难，你们就能理解“不好色”对于男人有多么困难了。大家要相互体谅啊……=.=
@@ -159,10 +159,10 @@ A: YXZ B: ZYX C: XZY X: BAC Y: CBA Z: ACB 对于这 3 对男女来说，有三�
     
       <item>
         <title>前面不也在下吗</title>
-        <link>http://wangbei.me/posts/it-is-raining-in-front-too/</link>
+        <link>https://wangbei.me/posts/it-is-raining-in-front-too/</link>
         <pubDate>Sat, 08 Aug 2009 00:00:00 +0800</pubDate>
         
-        <guid>http://wangbei.me/posts/it-is-raining-in-front-too/</guid>
+        <guid>https://wangbei.me/posts/it-is-raining-in-front-too/</guid>
         <description>Google 有十诫，其中第一条如下：
 Focus on the user and all else will follow. 一切以用户为中心，其他一切纷至沓来。
 曾经问过几个好友：对于你来说，“一切以什么为中心，其他一切纷至沓来”？有些朋友不那么爱琢磨这问题，没有回答。印象中仅有两位朋友给出了明确答复：钱！
@@ -185,10 +185,10 @@ hi，哥们，最近如何啊？ 王子和公主过着幸福的生活。 嗯？�
     
       <item>
         <title>随便</title>
-        <link>http://wangbei.me/posts/whatever/</link>
+        <link>https://wangbei.me/posts/whatever/</link>
         <pubDate>Sat, 07 Mar 2009 00:00:00 +0800</pubDate>
         
-        <guid>http://wangbei.me/posts/whatever/</guid>
+        <guid>https://wangbei.me/posts/whatever/</guid>
         <description>1939 年，郭沫若回乡探亲，平常散漫懒惰的某某同学登门拜访，并请郭老赐以墨宝。郭老早已了解此人平时做事马虎、敷衍，便问道：“写什么呢？”那位同学漫不经心地答道：“随便。”郭老眉头一皱，挥笔写下“不可随便”四个大字。
 在网上“随便”搜索一下，可知在 1939 年，郭沫若已就任“国民政府军事委员会政治部第三厅厅长”。我对官阶没有什么概念，只感觉厅长一职应该不小。一个小老百姓，去找一位厅长求墨宝，居然还能淡定到“随便”的境界，也难怪郭老厅长不高兴——你丫压根没把本座放在眼里啊！
 其实，我不是来评价郭老先生的，没这资格也没这兴趣。只是对这“不可随便”四个字，想表达些不同的看法而已。
@@ -208,10 +208,10 @@ hi，哥们，最近如何啊？ 王子和公主过着幸福的生活。 嗯？�
     
       <item>
         <title>别针的故事</title>
-        <link>http://wangbei.me/posts/story-of-pins/</link>
+        <link>https://wangbei.me/posts/story-of-pins/</link>
         <pubDate>Wed, 02 Jul 2008 00:00:00 +0800</pubDate>
         
-        <guid>http://wangbei.me/posts/story-of-pins/</guid>
+        <guid>https://wangbei.me/posts/story-of-pins/</guid>
         <description>一个叫亨特的美国小伙子与一个富家千金相爱并打算结婚，但富翁先生并不同意女儿的婚事，他认为亨特太穷且不会有出息。当亨特向富翁先生提出娶他女儿为妻时，富翁先生说：“如果你能在一周之内赚到 1000 美元，我就把女儿嫁给你。”他认为眼前这个穷小子别说 1000 美元，就是 10 美元都未必赚得到。
 亨特果然连续三天都一筹莫展。直到第四天，一队娶亲的人从他窗前经过，激发了他的灵感。当时人们出席婚礼时佩戴胸花，都是直接用针别在胸前的。这样花很容易脱落，而且别针的针尖露在外面，很不安全。亨特想到了一种可以将针尖藏在一个金属套内的别针，也就是现在我们熟知的“安全别针”。
 亨特喜出望外，拿着自己的发明四处去推销。裁缝店的老板们对这个新玩意都挺感兴趣，但一听报价 1000 美元，便都摆摆手不要了。直到天黑时，亨特才找到一家裁缝店，店老板对安全别针很有兴趣，表示愿意付给亨特 500 美元的专利费，并且每年再付给他年利润的 5%。亨特摇摇头，说：
@@ -227,10 +227,10 @@ hi，哥们，最近如何啊？ 王子和公主过着幸福的生活。 嗯？�
     
       <item>
         <title>味蕾</title>
-        <link>http://wangbei.me/posts/taste-buds/</link>
+        <link>https://wangbei.me/posts/taste-buds/</link>
         <pubDate>Sat, 17 Nov 2007 00:00:00 +0800</pubDate>
         
-        <guid>http://wangbei.me/posts/taste-buds/</guid>
+        <guid>https://wangbei.me/posts/taste-buds/</guid>
         <description>小时候，我很喜欢吃雪糕。姥姥不解地问：冷冰冰的东西，有什么好吃的？我就大方地给她尝一口，心想这下你可明白了吧。姥姥吃一小口说：“好像有点甜味儿。”我气愤地想：“好像？有点？”
 不久，我就查明了原由。从《十万个为什么》上看到，人有味觉是靠舌头上的味蕾，而味蕾会随着年龄的增长逐渐退化，因此老年人的味觉不如儿童的敏感。
 我于是很同情姥姥。上了年纪，不但不能吃硬梆梆的巧克力，连软绵绵的雪糕也尝不出味道，多么遗憾！
