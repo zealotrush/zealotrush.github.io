@@ -1,0 +1,43 @@
+// "A Hassle-Free Way to Self-Host Google Fonts" by Mario Ranftl
+// https://google-webfonts-helper.herokuapp.com/fonts
+
+// NOTE
+// Added the font-display afterwards
+
+$font-display: swap;
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-display: $font-display;
+  src: local('Oswald'),
+       url('../fonts/Oswald-Bold.ttf') format('truetype'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: $font-display;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('../fonts/OpenSans-Regular.ttf') format('truetype'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: $font-display;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'),
+       url('../fonts/OpenSans-Bold.ttf') format('truetype'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: $font-display;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'),
+       url('../fonts/OpenSans-Italic.ttf') format('truetype'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
