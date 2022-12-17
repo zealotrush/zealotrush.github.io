@@ -1,5 +1,5 @@
 baseURL = ""
-relativeURLs = true
+relativeURLs = "True"
 languageCode = 'zh-cmn'
 title = 'Zihuatanejo'
 author = '王备'
