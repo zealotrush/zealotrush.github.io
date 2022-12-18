@@ -455,7 +455,7 @@ Z: ACB
 - 暮色巡游者，快到我碗里来！我知道怎么喂宠物的哟！啊哈哈！o(≧v≦)o
 - 啊，美丽的黑海岸——如果不是我只能开最低特效的话，一定很美丽！
 
-** DONE 一席·杀马特
+* DONE 一席·杀马特
 :PROPERTIES:
 :EXPORT_FILE_NAME: yixi-smart
 :EXPORT_DATE: <2021-02-25 Thu>
