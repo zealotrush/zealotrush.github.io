@@ -283,6 +283,18 @@ Z: ACB
 
 写得乱七八糟。忽然发现，最后的例子貌似也不能证明我不是在抱怨嘛……whatever…
 
+* DONE 下班路上
+:PROPERTIES:
+:EXPORT_FILE_NAME: on-my-way-home
+:EXPORT_DATE: <2015-05-20 Wed>
+:END:
+
+下班路上，一个人走过祁连山南路桥时，拍下了映着夕阳的工地。
+
+#+ATTR_ORG: :width 600px
+#+ATTR_HTML: :width 600px
+[[file:images/on-my-way-home.jpeg]]
+
 * DONE 一个程序员的婚后生活
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-programmers-married-life
