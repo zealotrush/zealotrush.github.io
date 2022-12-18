@@ -365,6 +365,26 @@ Z: ACB
 #+ATTR_ORG: :width 500px
 #+ATTR_HTML: :width 500px
 [[file:images/work-function.jpeg]]
+
+* DONE 导航语音
+:PROPERTIES:
+:EXPORT_FILE_NAME: navigation-voice
+:EXPORT_DATE: <2018-09-01 Sat>
+:END:
+
+导航总爱提醒：「前方 500 米有违法拍照，请注意不要压线。」
+
+敢情要是没监控，线就能随便压？
+
+这不像警示，倒像是望风。
+
+这就仿佛：
+
+- 「本次列车有警察，请注意不要伸手摸包。」
+- 「监考老师抬头了，就注意把书藏好。」
+- 「晚上老公在家，请注意不要过来。」
+- ……
+
 * DONE 那些年
 :PROPERTIES:
 :EXPORT_FILE_NAME: days-of-our-wow-lives
