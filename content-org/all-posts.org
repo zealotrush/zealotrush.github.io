@@ -385,6 +385,13 @@ Z: ACB
 - 「晚上老公在家，请注意不要过来。」
 - ……
 
+* DONE 低情商
+:PROPERTIES:
+:EXPORT_FILE_NAME: low-eq
+:EXPORT_DATE: <2018-09-28 Fri>
+:END:
+
+每当我说了什么人家不爱听的话，或者有什么人家爱听的话而我没有说的时候，常被扣上「情商低」的帽子。通常我听了也并不恼，我觉得我情商的确不高，但不是因为你想的原因。就好比，你讲了个段子，我没笑，你说我没有幽默感——我的确没什么幽默感，但你那段子真心烂。
 * DONE 那些年
 :PROPERTIES:
 :EXPORT_FILE_NAME: days-of-our-wow-lives
@@ -455,6 +462,15 @@ Z: ACB
 
 呵呵……
 
+* DONE 路边苦李
+:PROPERTIES:
+:EXPORT_FILE_NAME: plums-by-the-road
+:EXPORT_DATE: <2020-09-30 Wed>
+:END:
+
+有个典故叫「路边苦李」，说的是一群小朋友看见路边有一棵李树，树上面挂满李子，于是小朋友纷纷爬树去摘，只有某天才少年不为所动——该天才少年碰巧也姓王。别人好奇，问他为什么不去摘。天才少年说：李子肯定苦，不然早被人摘光了。故事的结局是李子果然是苦的，天才少年未卜先知，英明神武。
+
+我拥有和天才少年同样的「睿智」，还有姓氏，然而命运却不同——我最先发现却没有去摘的李子，是甜的。
 * DONE 魔兽记忆碎片
 :PROPERTIES:
 :EXPORT_FILE_NAME: shards-of-wow-memory
