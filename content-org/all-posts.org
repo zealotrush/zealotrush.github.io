@@ -455,6 +455,21 @@ Z: ACB
 - 暮色巡游者，快到我碗里来！我知道怎么喂宠物的哟！啊哈哈！o(≧v≦)o
 - 啊，美丽的黑海岸——如果不是我只能开最低特效的话，一定很美丽！
 
+* DONE 一席·孤独症
+:PROPERTIES:
+:EXPORT_FILE_NAME: yixi-autism
+:EXPORT_DATE: <2021-02-22 Mon>
+:END:
+
+这是播客「一席」的又一主题。
+
+「孤独症」，港台译为「自闭症」，后者我们更眼熟。根据知乎上的[[https://www.zhihu.com/question/301301087/answer/526348093][一篇回答]]，「自闭症」的名称更容易引起误解；但[[https://www.zhihu.com/question/301301087/answer/571245365][另一篇回答]]则认为，二者半斤八两，都不准确，并认为「自闭症」并不是误译。
+
+第二个答主还给出了一个[[https://psychology-tools.com/test/autism-spectrum-quotient][自闭商在线自测页面]]。我的测试结果如下图，有些自闭特征。
+
+#+ATTR_ORG: :width 700px
+#+ATTR_HTML: :width 700px
+[[file:images/my-aq-results.png]]
 * DONE 一席·杀马特
 :PROPERTIES:
 :EXPORT_FILE_NAME: yixi-smart
