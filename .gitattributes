@@ -1,0 +1,10 @@
+*   text=auto
+
+# Image files.
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.bmp   binary
+
+.gitignore export-ignore
+.gitattributes export-ignore
