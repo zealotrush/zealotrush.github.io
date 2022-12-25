@@ -19,4 +19,4 @@ draft = false
 
 另：找到了那个 YouTube 视频。原来，忍不住打断别人，真的可能是生理缺陷。
 
-{{&lt; youtube pfCJkftpbZs &gt;}}
+{{< youtube pfCJkftpbZs >}}
