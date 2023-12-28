@@ -6,3 +6,4 @@ _site
 # hugo generated
 .hugo_build.lock
 resources/_gen/
+content-org/ltximg/*.svg
