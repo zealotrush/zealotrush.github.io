@@ -2,6 +2,7 @@ _site
 .DS_Store
 *.swp
 *.sublime-workspace
+static/ltximg/
 
 # hugo generated
 .hugo_build.lock
