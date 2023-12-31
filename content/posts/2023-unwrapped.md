@@ -7,7 +7,7 @@ draft = false
 
 2023 年将要结束，各大 app 变着花样地给用户生成年终总结。有一些报告中的统计数据还能让我会心一笑，比如 B 站的这个：
 
-{{< figure src="/ox-hugo/2023-12-30_16-17-21_screenshot.png" >}}
+{{< figure src="/ox-hugo/2023-12-30_16-17-21_screenshot.png" width="300px" >}}
 
 现在娃在午睡，我难得空出了两小时，不如也来总结一下自己的 2023 吧。
 

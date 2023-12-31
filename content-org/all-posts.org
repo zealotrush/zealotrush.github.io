@@ -903,6 +903,7 @@ Amazon 这么大的公司，没有能力把 Kindle 这个 app 做好吗？他们
 
 #+DOWNLOADED: screenshot @ 2023-12-30 16:17:21
 #+attr_org: :width 300px
+#+attr_html: :width 300px
 [[file:2023_年度总结/2023-12-30_16-17-21_screenshot.png]]
 
 现在娃在午睡，我难得空出了两小时，不如也来总结一下自己的 2023 吧。
