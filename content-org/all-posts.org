@@ -1132,7 +1132,7 @@ Engineers think that equations approximate the real world.  Physicists think tha
 An engineer, a physicist, and a mathematician are staying in a hotel.  The engineer wakes up and smells smoke.  He goes out into the hallway and sees a fire, so he fills a trash can from his room with water and douses the fire.  He goes back to bed.  Later, the physicist wakes up and smells the smoke.  He opens his door and sees a fire in the hallway.  He walks down the hall to a fire hose and after calculating the flame velocity, distance, water pressure, trajectory, and so forth, extinguishes the fire with the minimum amount of water and energy needed.  Later the mathematician wakes up and smells smoke.  He goes to the hall, sees the fire and then the fire hose.  He thinks for a moment and then exclaims, “Ah, a solution exists!” and then goes back to bed.
 #+end_quote
 
-一个工程师，一个物理学家，和一个数学家住酒店。工程师醒来，闻到烟味，到走廊一看，发现着火了。他拿起房间里的垃圾桶，灌满水，把火浇灭，然后回到床上继续睡觉。然后，物理学家醒来，闻到烟味，到走廊一看，发现着火了。他顺着走廊走，找到消防栓，计算火焰速度，距离，水压，弹道等等，然后用最少的水和能量将火扑灭。后来，数学家醒来，闻到烟味，到走廊一看，发现着火了，并且发现了消防栓。他想了一会儿，然后宣称：「解是存在的。」然后回到床上继续睡觉。
+一个工程师，一个物理学家，和一个数学家住酒店。工程师醒来，闻到烟味，到走廊一看，发现着火了。他拿起房间里的垃圾桶，灌满水，把火浇灭，然后回到床上继续睡觉。然后，物理学家醒来，闻到烟味，到走廊一看，发现着火了。他顺着走廊走，找到消防栓，计算火焰速度，距离，水压，弹道等等，然后用最少的水和能量将火扑灭。后来，数学家醒来，闻到烟味，到走廊一看，发现着火了，并且发现了消防栓。他想了一会儿，宣称：「解是存在的。」然后回到床上继续睡觉。
 
 ** 篱笆
 
