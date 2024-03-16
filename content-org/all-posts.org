@@ -999,13 +999,13 @@ Sometimes I wish I was a lesbian... Did I just say that out loud?
 ** 飞机
 
 #+begin_quote
-- A bunch of Polish scientists decided to flee their repressive government by hijacking an airliner and forcing the pilot to fly them to a western country.  They drove to the airport, forced their way on board a large passenger jet, and found there was no pilot on board.  Terrified, they listened as the sirens got louder. Finally, one of the scientists suggested that since he was an experimentalist, he would try to fly the aircraft.  He sat down at the controls and tried to figure them out.  The sirens got louder and louder.  Armed men surrounded the jet.  The would-be pilot’s friends cried out, “Please, please take off now!!! Hurry!!!”  The experimentalist calmly replied, “Have patience.  I’m just a simple pole in a complex plane.”
+A bunch of Polish scientists decided to flee their repressive government by hijacking an airliner and forcing the pilot to fly them to a western country.  They drove to the airport, forced their way on board a large passenger jet, and found there was no pilot on board.  Terrified, they listened as the sirens got louder. Finally, one of the scientists suggested that since he was an experimentalist, he would try to fly the aircraft.  He sat down at the controls and tried to figure them out.  The sirens got louder and louder.  Armed men surrounded the jet.  The would-be pilot’s friends cried out, “Please, please take off now!!! Hurry!!!”  The experimentalist calmly replied, “Have patience.  I’m just a simple pole in a complex plane.”
 #+end_quote
 
 一群波兰科学家决定劫机逃亡到西方国家。他们驱车赶往机场，冲上一架大型客机，却发现没有飞行员。警报声响起，他们慌了手脚。终于，一位科学家站出来说，他可以试着驾驶飞机，因为他是一名实验科学家。于是他坐下来开始摆弄那些控制杆。警报声越来越大，武警包围了客机。这位准飞行员的同伴们哭喊：「快起飞啊！快啊！」实验科学家淡定地说：「耐心一点，我只是一个复杂飞机里的普通波兰人（一个复平面上的简单极点）。」
 
 #+begin_quote
-- A group of Polish tourists is flying on a small airplane through the Grand Canyon on a sightseeing tour.  The tour guide announces: “On the right of the airplane, you can see the famous Bright Angle Falls.”  The tourists leap out of their seats and crowd to the windows on the right side.  This causes a dynamic imbalance, and the plane violently rolls to the side and crashes into the canyon wall.  All aboard are lost.  The moral of this episode is: always keep your poles off the right side of the plane.
+A group of Polish tourists is flying on a small airplane through the Grand Canyon on a sightseeing tour.  The tour guide announces: “On the right of the airplane, you can see the famous Bright Angle Falls.”  The tourists leap out of their seats and crowd to the windows on the right side.  This causes a dynamic imbalance, and the plane violently rolls to the side and crashes into the canyon wall.  All aboard are lost.  The moral of this episode is: always keep your poles off the right side of the plane.
 #+end_quote
 
 一群波兰游客乘坐一架小型飞机穿越大峡谷。导游说：「在飞机右侧，大家可以看到著名的亮角瀑布。」游客们纷纷离开座位，挤到右侧窗户去看。飞机失去平衡，朝一侧翻滚，最终坠毁在大峡谷。机上所有人全部遇难。这件事给我们的教训是：始终保持所有的波兰人都远离飞机的右侧（所有的极点都不在平面的右侧）。
@@ -1129,7 +1129,7 @@ Engineers think that equations approximate the real world.  Physicists think tha
 ** 救火
 
 #+begin_quote
-- An engineer, a physicist, and a mathematician are staying in a hotel.  The engineer wakes up and smells smoke.  He goes out into the hallway and sees a fire, so he fills a trash can from his room with water and douses the fire.  He goes back to bed.  Later, the physicist wakes up and smells the smoke.  He opens his door and sees a fire in the hallway.  He walks down the hall to a fire hose and after calculating the flame velocity, distance, water pressure, trajectory, and so forth, extinguishes the fire with the minimum amount of water and energy needed.  Later the mathematician wakes up and smells smoke.  He goes to the hall, sees the fire and then the fire hose.  He thinks for a moment and then exclaims, “Ah, a solution exists!” and then goes back to bed.
+An engineer, a physicist, and a mathematician are staying in a hotel.  The engineer wakes up and smells smoke.  He goes out into the hallway and sees a fire, so he fills a trash can from his room with water and douses the fire.  He goes back to bed.  Later, the physicist wakes up and smells the smoke.  He opens his door and sees a fire in the hallway.  He walks down the hall to a fire hose and after calculating the flame velocity, distance, water pressure, trajectory, and so forth, extinguishes the fire with the minimum amount of water and energy needed.  Later the mathematician wakes up and smells smoke.  He goes to the hall, sees the fire and then the fire hose.  He thinks for a moment and then exclaims, “Ah, a solution exists!” and then goes back to bed.
 #+end_quote
 
 一个工程师，一个物理学家，和一个数学家住酒店。工程师醒来，闻到烟味，到走廊一看，发现着火了。他拿起房间里的垃圾桶，灌满水，把火浇灭，然后回到床上继续睡觉。然后，物理学家醒来，闻到烟味，到走廊一看，发现着火了。他顺着走廊走，找到消防栓，计算火焰速度，距离，水压，弹道等等，然后用最少的水和能量将火扑灭。后来，数学家醒来，闻到烟味，到走廊一看，发现着火了，并且发现了消防栓。他想了一会儿，然后宣称：「解是存在的。」然后回到床上继续睡觉。
@@ -1145,7 +1145,7 @@ One day a farmer called up an engineer, a physicist, and a mathematician and ask
 ** 空楼
 
 #+begin_quote
-- A biologist, a physicist, and a mathematician were sitting in a street café watching the crowd.  Across the street they saw a man and a woman entering a building.  Ten minutes later they reappeared together with a third person.  “They have multiplied,” said the biologist.  “Oh no, an error in measurement,” the physicist sighed.  “If exactly one person enters the building now, it will be empty again,” the mathematician concluded.
+A biologist, a physicist, and a mathematician were sitting in a street café watching the crowd.  Across the street they saw a man and a woman entering a building.  Ten minutes later they reappeared together with a third person.  “They have multiplied,” said the biologist.  “Oh no, an error in measurement,” the physicist sighed.  “If exactly one person enters the building now, it will be empty again,” the mathematician concluded.
 #+end_quote
 
 一个生物学家，一个物理学家，和一个数学家坐在咖啡馆里看着街上的人群。他们看到街对面有一男一女走进一座大楼。十分钟后，这对男女和第三个人一同走出了大楼。生物学家说：「他们繁殖了。」物理学家说：「哦不，测量误差。」数学家说：「如果再进去一个人，这栋楼就又空了。」
@@ -1153,7 +1153,7 @@ One day a farmer called up an engineer, a physicist, and a mathematician and ask
 ** 黑羊
 
 #+begin_quote
-- A mathematician, a physicist, and an engineer were traveling through Scotland when they saw a black sheep through the window of the train. “Aha,” says the engineer, “I see that Scottish sheep are black.” “Hmm,” says the physicist, “You mean that some Scottish sheep are black.” “No,” says the mathematician, “All we know is that there is at least one sheep in Scotland, and that at least one side of that one sheep is black!”
+A mathematician, a physicist, and an engineer were traveling through Scotland when they saw a black sheep through the window of the train. “Aha,” says the engineer, “I see that Scottish sheep are black.” “Hmm,” says the physicist, “You mean that some Scottish sheep are black.” “No,” says the mathematician, “All we know is that there is at least one sheep in Scotland, and that at least one side of that one sheep is black!”
 #+end_quote
 
 一个工程师，一个物理学家和一个数学家路过苏格兰时，透过火车窗户看到一只黑色的羊。工程师说：「啊哈，我看到苏格兰的羊是黑色的。」物理学家说：「唔，只能说有些苏格兰羊是黑色的。」数学家说：「不，我们仅仅知道苏格兰至少有一只羊，且这只羊的至少一面是黑色的。」
