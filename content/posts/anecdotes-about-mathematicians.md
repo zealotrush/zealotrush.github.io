@@ -38,7 +38,7 @@ draft = false
 ## 灯泡 {#灯泡}
 
 > -   Q:  How many topologists does it take to change a lightbulb?
-> -   A:  Just one, but what will do with the doughnut?
+> -   A:  Just one, but what will you do with the doughnut?
 
 -   问：换一个灯泡需要几个拓扑学家？
 -   答：只要一个，但你拿着甜甜圈干什么？

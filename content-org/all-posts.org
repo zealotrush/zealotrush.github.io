@@ -1014,7 +1014,7 @@ A group of Polish tourists is flying on a small airplane through the Grand Canyo
 
 #+begin_quote
 - Q:  How many topologists does it take to change a lightbulb?
-- A:  Just one, but what will do with the doughnut?
+- A:  Just one, but what will you do with the doughnut?
 #+end_quote
 
 - 问：换一个灯泡需要几个拓扑学家？
