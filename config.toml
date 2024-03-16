@@ -4,6 +4,3 @@ languageCode = 'zh-cmn'
 title = 'Zihuatanejo'
 author = '王备'
 theme = 'etch'
-
-[blackfriday]
-extensions = ["hardLineBreak"]
