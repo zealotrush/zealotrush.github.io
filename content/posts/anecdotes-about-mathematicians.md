@@ -65,7 +65,7 @@ draft = false
 > -   A:  Changing a lightbulb is a special case of a more general theorem concerning the maintenance and repair of an electrical system.  To establish upper and lower bounds for the number of personnel required, we must determine whether the sufficient conditions of Lemma 2.1 (Availability of personnel) and those of Corollary 2.3.55 (Motivation of personnel) apply.  If and only if these conditions are met, we derive the result by an application of the theorems in Sections 3.1123.  The resulting upper bound is, of course, a result in an abstract measure space, in the weak-topology.
 
 -   问：换一个灯泡需要几个 Bourbakists？
--   答：换灯泡是关于维护和修理一个电气系统这个一般性定理的一个特例。为了确立该问题所需员工人数的上下限，我们必须确定引理 2.1（人员可用性） 的充分条件，以及​推论 2.3.55（人员积极性）成立。当且仅当这些条件成立时，我们可应用第 3.1123 节的定理求解。当然，此上限是在弱拓扑学中一个抽象测度空间的结果。
+-   答：换灯泡是关于维护和修理一个电气系统这个一般性定理的一个特例。为了确立该问题所需员工人数的上下限，我们必须确保引理 2.1（人员可用性） 以及​推论 2.3.55（人员积极性）的充分条件成立。当且仅当这些条件成立时，我们可应用第 3.1123 节的定理求解。当然，此上限是在弱拓扑学中一个抽象测度空间的结果。
 
 > -   Q:  How many mathematicians does it take to screw in a lightbulb?
 > -   A:  0.999999...
