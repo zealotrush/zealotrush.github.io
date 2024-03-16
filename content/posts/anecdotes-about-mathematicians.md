@@ -10,15 +10,15 @@ draft = false
 
 ## 葡萄 {#葡萄}
 
-> Q:  What's purple and commutes? <br />
+> Q:  What's purple and commutes? \\
 > A:  An abelian grape.
 
-问：什么东西是紫色且可交换的？ <br />
+问：什么东西是紫色且可交换的？ \\
 答：阿贝尔葡萄。
 
 英文中葡萄（grape）和群（group）谐音，但中文二者不谐音。为了保留谐音梗效果，试译为：
 
-问：什么东西是紫色且可交换的？ <br />
+问：什么东西是紫色且可交换的？ \\
 答：阿贝尔裙。
 
 不过，无论是原文还是译文，都很生硬，不太好玩。后面还有一大堆关于阿贝尔群的段子，都不好玩。
@@ -37,85 +37,85 @@ draft = false
 
 ## 灯泡 {#灯泡}
 
-> Q:  How many topologists does it take to change a lightbulb? <br />
+> Q:  How many topologists does it take to change a lightbulb? \\
 > A:  Just one, but what will do with the doughnut?
 
-问：换一个灯泡需要几个拓扑学家？ <br />
+问：换一个灯泡需要几个拓扑学家？ \\
 答：只要一个，但你拿着甜甜圈干什么？
 
-> Q:  How many number theorists does it take to change a lightbulb? <br />
+> Q:  How many number theorists does it take to change a lightbulb? \\
 > A:  This is not known, but it is conjectured to be an elegant prime.
 
-问：换一个灯泡需要几个数论学家？ <br />
+问：换一个灯泡需要几个数论学家？ \\
 答：不知道，据推测会是一个优雅的素数。
 
-> Q:  How many geometers does it take to screw in a lightbulb? <br />
+> Q:  How many geometers does it take to screw in a lightbulb? \\
 > A:  None.  You can't do it with a straightedge and compass.
 
-问：换一个灯泡需要几个几何学家？ <br />
+问：换一个灯泡需要几个几何学家？ \\
 答：零。你不可能用尺规作图完成。
 
-> Q:  How many analysts does it take to screw in a lightbulb? <br />
+> Q:  How many analysts does it take to screw in a lightbulb? \\
 > A:  Three.  One to prove existence, one to prove uniqueness, and one to derive a nonconstructive algorithm to do it.
 
-问：换一个灯泡需要几个分析家？ <br />
+问：换一个灯泡需要几个分析家？ \\
 答：三个。一个证明解的存在性，一个证明解的唯一性，还有一个推导一种非构造算法来实现它。
 
-> Q:  How many Bourbakists does it take to replace a lightbulb? <br />
+> Q:  How many Bourbakists does it take to replace a lightbulb? \\
 > A:  Changing a lightbulb is a special case of a more general theorem concerning the maintenance and repair of an electrical system.  To establish upper and lower bounds for the number of personnel required, we must determine whether the sufficient conditions of Lemma 2.1 (Availability of personnel) and those of Corollary 2.3.55 (Motivation of personnel) apply.  If and only if these conditions are met, we derive the result by an application of the theorems in Sections 3.1123.  The resulting upper bound is, of course, a result in an abstract measure space, in the weak-topology.
 
-问：换一个灯泡需要几个 Bourbakists？ <br />
+问：换一个灯泡需要几个 Bourbakists？ \\
 答：换灯泡是关于维护和修理一个电气系统这个一般性定理的一个特例。为了确立该问题所需员工人数的上下限，我们必须确定引理 2.1（人员可用性） 的充分条件，以及​推论 2.3.55（人员积极性）成立。当且仅当这些条件成立时，我们可应用第 3.1123 节的定理求解。当然，此上限是在弱拓扑学中一个抽象测度空间的结果。
 
-> Q:  How many mathematicians does it take to screw in a lightbulb? <br />
+> Q:  How many mathematicians does it take to screw in a lightbulb? \\
 > A:  0.999999...
 
-问：换一个灯泡需要几个数学家？ <br />
+问：换一个灯泡需要几个数学家？ \\
 答：0.999999... 个。
 
-> Q:  How many lightbulbs does it take to change a lightbulb? <br />
+> Q:  How many lightbulbs does it take to change a lightbulb? \\
 > A:  One, if it knows its own Gödel number.
 
-问：换一个灯泡需要几个灯泡？ <br />
+问：换一个灯泡需要几个灯泡？ \\
 答：一个，如果这个灯泡知道它的哥德尔编码的话。
 
 
 ## 马路 {#马路}
 
-> Q:  Why did the chicken cross the road? <br />
+> Q:  Why did the chicken cross the road? \\
 > A:  Gödel:  It cannot be proved whether the chicken crossed the road.
 
-问：鸡为什么过马路？ <br />
+问：鸡为什么过马路？ \\
 答：哥德尔：无法证明鸡有没有过马路。
 
-> Q:  Why did the chicken cross the road? <br />
+> Q:  Why did the chicken cross the road? \\
 > A:  Erdös:  It was forced to do so by the chicken-hole principle.
 
-问：鸡为什么过马路？ <br />
+问：鸡为什么过马路？ \\
 答：埃尔多斯：根据鸡洞原则，它必须这么做。
 
-> Q:  Why did the chicken cross the road? <br />
+> Q:  Why did the chicken cross the road? \\
 > A:  Riemann:  The answer appears in Dirichlet's lectures.
 
-问：鸡为什么过马路？ <br />
+问：鸡为什么过马路？ \\
 答：黎曼：答案见狄利克雷讲义。
 
-> Q:  Why did the chicken cross the road? <br />
+> Q:  Why did the chicken cross the road? \\
 > A:  Fermat:  It did not fit on the margin on this side.
 
-问：鸡为什么过马路？ <br />
+问：鸡为什么过马路？ \\
 答：费马：因为路这边的空间不够了。
 
-> Q:  Why did the chicken cross the Möbius strip? <br />
+> Q:  Why did the chicken cross the Möbius strip? \\
 > A:  To get to the other-er...
 
-问：鸡为什么过莫比乌斯圈？ <br />
+问：鸡为什么过莫比乌斯圈？ \\
 答：去另外，呃……
 
-> Q:  Why did the chicken cross the Möbius strip? <br />
+> Q:  Why did the chicken cross the Möbius strip? \\
 > A:  To get to the same side.
 
-问：鸡为什么过莫比乌斯圈？ <br />
+问：鸡为什么过莫比乌斯圈？ \\
 答：去同一边。
 
 
