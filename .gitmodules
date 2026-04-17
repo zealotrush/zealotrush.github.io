@@ -12,4 +12,4 @@
 	url = https://github.com/LukasJoswiak/etch.git
 [submodule "themes/emacs"]
 	path = themes/emacs
-	url = https://github.com/ArthurHeymans/hugo-emacs-theme
+	url = git@github.com:zealotrush/hugo-emacs-theme.git
