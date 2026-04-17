@@ -1,6 +1,14 @@
 baseURL = "https://wangbei.me"
 relativeURLs = "True"
 languageCode = 'zh-cmn'
+defaultContentLanguage = 'zh-cmn'
 title = 'Zihuatanejo'
 author = '王备'
-theme = 'etch'
+theme = 'emacs'
+
+[markup.highlight]
+noClasses = false
+
+[params]
+mainSections = ["posts"]
+math = true

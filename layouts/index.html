@@ -1,0 +1,46 @@
+{{ define "main" }}
+<section class="buffer buffer-list active" id="buffer-list">
+  <div class="buffer-body">
+    <ul class="article-list" id="article-list">
+      {{- $pages := where .Site.RegularPages "Section" "posts" }}
+      {{- range $index, $page := $pages.ByDate.Reverse }}
+      <li class="article-item{{ if eq $index 0 }} selected{{ end }}" 
+          data-index="{{ $index }}"
+          data-url="{{ $page.RelPermalink }}"
+          data-title="{{ $page.Title }}"
+          data-date="{{ $page.Date.Format "2006-01-02" }}"
+          data-reading-time="{{ $page.ReadingTime }}"
+          data-word-count="{{ $page.WordCount }}">
+        <a href="{{ $page.RelPermalink }}" class="article-link">
+          <span class="article-meta">
+            <span class="article-date">{{ $page.Date.Format "2006-01-02" }}</span>
+          </span>
+          <span class="article-title">{{ $page.Title }}</span>
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+</section>
+
+<section class="buffer buffer-content" id="buffer-content">
+  <div class="buffer-body" id="content-body">
+    <article class="post-content" id="article-content">
+    </article>
+  </div>
+</section>
+
+<div id="posts-data" style="display:none;">
+  {{- $pages := where .Site.RegularPages "Section" "posts" }}
+  {{- range $index, $page := $pages.ByDate.Reverse }}
+  <template data-post-index="{{ $index }}" data-post-url="{{ $page.RelPermalink }}">
+    <div class="post-header">
+      <h1 class="post-title">{{ $page.Title }}</h1>
+    </div>
+    <div class="post-body">
+      {{ $page.Content }}
+    </div>
+  </template>
+  {{- end }}
+</div>
+{{ end }}
