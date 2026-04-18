@@ -8,3 +8,4 @@ static/ltximg/
 .hugo_build.lock
 resources/_gen/
 content-org/ltximg/*.svg
+public/
