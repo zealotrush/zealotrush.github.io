@@ -74,6 +74,23 @@
     <div class="post-body">
       {{ $page.Content }}
     </div>
+    <nav class="post-navigation" style="margin-top: 3em; padding-top: 1em; border-top: 1px solid var(--border-dim);">
+      <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1em;">
+        {{- with $page.NextInSection }}
+        <a href="{{ .RelPermalink }}" style="color: var(--link);">
+          &larr; {{ .Title | truncate 40 }}
+        </a>
+        {{- else }}
+        <span></span>
+        {{- end }}
+        <span style="flex: 1;"></span>
+        {{- with $page.PrevInSection }}
+        <a href="{{ .RelPermalink }}" style="color: var(--link);">
+          {{ .Title | truncate 40 }} &rarr;
+        </a>
+        {{- end }}
+      </div>
+    </nav>
   </template>
   {{- end }}
 </div>
