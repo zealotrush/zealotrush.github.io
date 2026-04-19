@@ -1,5 +1,4 @@
 baseURL = "https://wangbei.me"
-relativeURLs = "True"
 languageCode = 'zh-cmn'
 defaultContentLanguage = 'zh-cmn'
 title = 'Zihuatanejo'
