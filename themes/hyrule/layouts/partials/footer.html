@@ -1,0 +1,21 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>
+      &copy; {{ now.Year }} {{ .Site.Params.author | default .Site.Title }}
+      {{ if .Site.Params.footerText }}&mdash; {{ .Site.Params.footerText }}{{ end }}
+    </p>
+    <p>
+      <a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a>
+      &mdash;
+      Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>
+    </p>
+    <p style="margin-top: 16px;">
+      UI design based on the <a href="https://www.figma.com/community/file/965825767811358609" target="_blank" rel="noopener">Zelda BOTW UI Kit</a>
+      by <a href="https://hunterparamore.com" target="_blank" rel="noopener">Hunter Paramore</a>.
+      Implementation via <a href="https://github.com/chaos-xxl/zelda-hyrule-ui" target="_blank" rel="noopener">zelda-hyrule-ui</a>.
+    </p>
+    <p>
+      <em>The Legend of Zelda</em> and related trademarks belong to Nintendo. This is a non-commercial fan creation.
+    </p>
+  </div>
+</footer>

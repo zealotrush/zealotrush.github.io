@@ -1,0 +1,54 @@
+{{ define "main" }}
+<div class="container">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-symbol">
+      {{ partial "sheikah-symbol-svg.html" . }}
+    </div>
+    <h1 class="hero-title">{{ .Site.Title }}</h1>
+    {{ with .Site.Params.description }}
+      <p class="hero-subtitle">{{ . }}</p>
+    {{ end }}
+  </section>
+
+  <hr class="divider-sheikah">
+
+  <!-- Sheikah Title -->
+  <div class="sheikah-title" style="margin-bottom: var(--hyrule-spacing-xl);">
+    <div class="sheikah-title-row">
+      <span class="sheikah-title-ornament">&diams;</span>
+      <h2 class="sheikah-title-text">Recent Posts</h2>
+      <span class="sheikah-title-ornament">&diams;</span>
+    </div>
+    <p class="sheikah-title-desc">最新文章</p>
+  </div>
+
+  <!-- Post List -->
+  {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+  <div class="post-list">
+    {{ range $pages }}
+      <a href="{{ .RelPermalink }}" class="post-card" style="animation-delay: {{ mul .ReadingTime 0.05 | lang.FormatNumber 1 }}s">
+        <h3 class="post-card-title">{{ .Title }}</h3>
+        <div class="post-card-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+          {{ if .Params.author }}
+            <span>{{ .Params.author }}</span>
+          {{ end }}
+        </div>
+        {{ if .Summary }}
+          <div class="post-card-summary">
+            {{ .Summary | truncate 200 }}
+          </div>
+        {{ end }}
+        {{ with .Params.tags }}
+          <div class="post-card-tags">
+            {{ range . }}
+              <span class="post-card-tag">{{ . }}</span>
+            {{ end }}
+          </div>
+        {{ end }}
+      </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,17 @@
+name = "Hyrule"
+license = "MIT"
+licenselink = "https://github.com/chaos-xxl/zelda-hyrule-ui/blob/main/LICENSE"
+description = "A Hugo theme inspired by The Legend of Zelda: Breath of the Wild, using the zelda-hyrule-ui design language"
+homepage = "https://github.com/chaos-xxl/zelda-hyrule-ui"
+tags = ["dark", "blog", "zelda", "sheikah", "botw", "hyrule", "game"]
+features = ["dark mode", "sheikah glow effects", "loading splash screen", "responsive"]
+min_version = "0.110.0"
+
+[author]
+  name = "chaos-xxl / zelda-hyrule-ui"
+  homepage = "https://github.com/chaos-xxl/zelda-hyrule-ui"
+
+# Attribution (from zelda-hyrule-ui ATTRIBUTION.md)
+# UI design based on the Zelda BOTW UI Kit by Hunter Paramore
+# https://www.figma.com/community/file/965825767811358609
+# https://hunterparamore.com

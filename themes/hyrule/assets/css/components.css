@@ -1,0 +1,854 @@
+/* ============================================
+   Hyrule Hugo Theme - Components
+   ============================================ */
+
+/* ==========================================
+   Sheikah Background + Scanlines
+   ========================================== */
+
+.sheikah-bg {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background: #0a1628;
+}
+
+.sheikah-bg-texture {
+  position: fixed;
+  inset: 0;
+  background-image: url('../images/sheikah-bg-dark.png');
+  background-size: cover;
+  background-position: top left;
+  opacity: 0.6;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.sheikah-bg-content {
+  position: relative;
+  z-index: 1;
+}
+
+.sheikah-scanlines {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  mix-blend-mode: overlay;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 1px,
+    rgba(60, 211, 252, 0.03) 1px,
+    rgba(60, 211, 252, 0.03) 2px
+  );
+  filter: blur(0.5px);
+}
+
+.sheikah-scanlines.animated {
+  animation: hyrule-scan-move 8s linear infinite;
+}
+
+/* ==========================================
+   Sheikah Symbol (decorative)
+   ========================================== */
+
+.sheikah-symbol {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.25;
+}
+
+.sheikah-symbol img,
+.sheikah-symbol svg {
+  width: 100%;
+  height: auto;
+}
+
+/* ==========================================
+   Sheikah Text Title
+   ========================================== */
+
+.sheikah-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--hyrule-spacing-sm);
+}
+
+.sheikah-title-row {
+  display: flex;
+  align-items: center;
+  gap: var(--hyrule-spacing-md);
+}
+
+.sheikah-title-ornament {
+  color: var(--hyrule-sheikah-blue);
+  font-size: 8px;
+  opacity: 0.6;
+}
+
+.sheikah-title-text {
+  font-family: var(--hyrule-font-body);
+  font-size: 1.375rem;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--hyrule-sheikah-blue);
+  margin: 0;
+  letter-spacing: 0.05em;
+}
+
+.sheikah-title-desc {
+  font-family: var(--hyrule-font-body);
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: italic;
+  color: rgba(60, 211, 252, 0.6);
+  text-align: center;
+  margin: 0;
+  max-width: 584px;
+  line-height: 1.4;
+}
+
+/* ==========================================
+   Card / Panel (double-border structure)
+   ========================================== */
+
+.hyrule-card {
+  position: relative;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: var(--hyrule-radius-sm);
+  padding: var(--hyrule-spacing-xl) var(--hyrule-spacing-2xl);
+  color: var(--hyrule-text-main);
+  font-family: var(--hyrule-font-body);
+  transition: all var(--hyrule-duration-base) var(--hyrule-ease);
+  overflow: hidden;
+}
+
+.hyrule-card::after {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border: 1px solid rgba(226, 222, 211, 0.2);
+  border-radius: 2px;
+  pointer-events: none;
+  transition: border-color var(--hyrule-duration-base) var(--hyrule-ease);
+}
+
+.hyrule-card:hover::after {
+  border-color: rgba(226, 222, 211, 0.4);
+}
+
+/* Sheikah variant */
+.hyrule-card.sheikah {
+  background: rgba(10, 20, 40, 0.85);
+}
+
+.hyrule-card.sheikah::after {
+  border-color: rgba(60, 211, 252, 0.3);
+}
+
+.hyrule-card.sheikah::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--hyrule-sheikah-blue), transparent);
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.hyrule-card.sheikah:hover {
+  box-shadow: var(--hyrule-glow-blue);
+}
+
+.hyrule-card.sheikah:hover::after {
+  border-color: rgba(60, 211, 252, 0.6);
+}
+
+/* Golden variant */
+.hyrule-card.golden {
+  background: rgba(30, 25, 15, 0.85);
+}
+
+.hyrule-card.golden::after {
+  border-color: rgba(252, 196, 19, 0.3);
+}
+
+.hyrule-card.golden::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--hyrule-effect-orange), transparent);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.hyrule-card.golden:hover {
+  box-shadow: 0 0 12px rgba(252, 196, 19, 0.2);
+}
+
+.hyrule-card.golden:hover::after {
+  border-color: rgba(252, 196, 19, 0.6);
+}
+
+.hyrule-card-title {
+  font-family: var(--hyrule-font-title);
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: var(--hyrule-tan);
+  margin-bottom: var(--hyrule-spacing-md);
+  letter-spacing: 0.04em;
+  font-style: normal;
+}
+
+.hyrule-card-body {
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 1.6;
+  color: rgba(233, 225, 209, 0.8);
+}
+
+/* ==========================================
+   Buttons
+   ========================================== */
+
+.hyrule-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: var(--hyrule-radius-sm);
+  cursor: pointer;
+  transition: all var(--hyrule-duration-base) var(--hyrule-ease);
+  font-family: var(--hyrule-font-body);
+  font-weight: 500;
+  font-style: italic;
+  color: var(--hyrule-tan);
+  letter-spacing: 0.01em;
+  line-height: 1;
+  text-decoration: none;
+  padding: 0 var(--hyrule-spacing-2xl);
+  height: 50px;
+  font-size: 1.125rem;
+}
+
+.hyrule-btn::after {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border: 1px solid rgba(226, 222, 211, 0.3);
+  border-radius: 2px;
+  pointer-events: none;
+  transition: border-color var(--hyrule-duration-base) var(--hyrule-ease);
+}
+
+.hyrule-btn:hover {
+  background: rgba(0, 0, 0, 0.75);
+  color: var(--hyrule-tan);
+  text-shadow: none;
+}
+
+.hyrule-btn:hover::after {
+  border-color: rgba(226, 222, 211, 0.6);
+}
+
+.hyrule-btn:active {
+  transform: scale(0.98);
+}
+
+.hyrule-btn:focus-visible {
+  outline: 2px solid var(--hyrule-sheikah-blue);
+  outline-offset: 2px;
+}
+
+/* Sheikah button */
+.hyrule-btn.sheikah {
+  background: rgba(10, 20, 40, 0.8);
+}
+
+.hyrule-btn.sheikah::after {
+  border-color: rgba(60, 211, 252, 0.4);
+}
+
+.hyrule-btn.sheikah:hover {
+  background: rgba(10, 20, 40, 0.9);
+  box-shadow: var(--hyrule-glow-blue);
+  color: var(--hyrule-sheikah-blue);
+}
+
+.hyrule-btn.sheikah:hover::after {
+  border-color: var(--hyrule-sheikah-blue);
+}
+
+/* Ghost button */
+.hyrule-btn.ghost {
+  background: transparent;
+}
+
+.hyrule-btn.ghost::after {
+  border-color: transparent;
+}
+
+.hyrule-btn.ghost:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.hyrule-btn.ghost:hover::after {
+  border-color: rgba(226, 222, 211, 0.3);
+}
+
+/* ==========================================
+   Post Card (article card in list)
+   ========================================== */
+
+.post-card {
+  position: relative;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: var(--hyrule-radius-sm);
+  padding: var(--hyrule-spacing-xl) var(--hyrule-spacing-2xl);
+  color: var(--hyrule-text-main);
+  font-family: var(--hyrule-font-body);
+  transition: all var(--hyrule-duration-base) var(--hyrule-ease);
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  animation: post-card-enter 0.4s var(--hyrule-ease-out) both;
+}
+
+.post-card::after {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border: 1px solid rgba(226, 222, 211, 0.2);
+  border-radius: 2px;
+  pointer-events: none;
+  transition: border-color var(--hyrule-duration-base) var(--hyrule-ease);
+}
+
+.post-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--hyrule-sheikah-blue), transparent);
+  opacity: 0.4;
+  z-index: 1;
+  transition: opacity var(--hyrule-duration-base);
+}
+
+.post-card:hover {
+  background: rgba(10, 20, 40, 0.8);
+  box-shadow: var(--hyrule-glow-blue);
+  color: var(--hyrule-text-main);
+  text-shadow: none;
+}
+
+.post-card:hover::after {
+  border-color: rgba(60, 211, 252, 0.5);
+}
+
+.post-card:hover::before {
+  opacity: 0.8;
+}
+
+.post-card-title {
+  font-family: var(--hyrule-font-title);
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--hyrule-tan);
+  margin-bottom: var(--hyrule-spacing-sm);
+  letter-spacing: 0.04em;
+  line-height: 1.3;
+}
+
+.post-card:hover .post-card-title {
+  color: var(--hyrule-sheikah-blue);
+}
+
+.post-card-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--hyrule-spacing-lg);
+  margin-bottom: var(--hyrule-spacing-md);
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--hyrule-text-muted);
+}
+
+.post-card-meta time {
+  color: rgba(60, 211, 252, 0.5);
+}
+
+.post-card-summary {
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 1.6;
+  color: rgba(233, 225, 209, 0.7);
+}
+
+.post-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--hyrule-spacing-sm);
+  margin-top: var(--hyrule-spacing-md);
+}
+
+.post-card-tag {
+  font-size: 0.7rem;
+  font-weight: 400;
+  font-style: italic;
+  padding: 2px 8px;
+  border-radius: var(--hyrule-radius-sm);
+  background: rgba(60, 211, 252, 0.1);
+  border: 1px solid rgba(60, 211, 252, 0.2);
+  color: rgba(60, 211, 252, 0.7);
+  transition: all var(--hyrule-duration-fast);
+  text-decoration: none;
+}
+
+.post-card-tag:hover {
+  background: rgba(60, 211, 252, 0.2);
+  border-color: var(--hyrule-sheikah-blue);
+  color: var(--hyrule-sheikah-blue);
+  text-shadow: none;
+}
+
+/* ==========================================
+   Site Header / Navigation
+   ========================================== */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: var(--hyrule-z-header);
+  background: rgba(10, 20, 40, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(60, 211, 252, 0.1);
+}
+
+.header-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 var(--hyrule-spacing-xl);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+}
+
+.site-logo {
+  font-family: var(--hyrule-font-title);
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--hyrule-tan);
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  transition: color var(--hyrule-duration-base);
+}
+
+.site-logo:hover {
+  color: var(--hyrule-sheikah-blue);
+  text-shadow: none;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--hyrule-spacing-xl);
+  list-style: none;
+}
+
+.site-nav a {
+  font-family: var(--hyrule-font-body);
+  font-size: 0.85rem;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--hyrule-text-muted);
+  text-decoration: none;
+  transition: color var(--hyrule-duration-base);
+  letter-spacing: 0.02em;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+  color: var(--hyrule-sheikah-blue);
+  text-shadow: 0 0 6px rgba(60, 211, 252, 0.3);
+}
+
+/* ==========================================
+   Site Footer
+   ========================================== */
+
+.site-footer {
+  border-top: 1px solid rgba(233, 225, 209, 0.06);
+  padding: var(--hyrule-spacing-3xl) var(--hyrule-spacing-xl);
+  text-align: center;
+}
+
+.footer-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 0.75rem;
+  color: rgba(233, 225, 209, 0.35);
+  line-height: 1.8;
+}
+
+.footer-inner a {
+  color: rgba(60, 211, 252, 0.5);
+}
+
+.footer-inner a:hover {
+  color: var(--hyrule-sheikah-blue);
+  text-shadow: none;
+}
+
+/* ==========================================
+   Loading Spinner (Sheikah eye)
+   ========================================== */
+
+.loading-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--hyrule-spacing-md);
+}
+
+.loading-ring {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid rgba(60, 211, 252, 0.2);
+  border-top-color: var(--hyrule-sheikah-blue);
+  animation: sheikah-spin 1s linear infinite;
+  filter: drop-shadow(0 0 4px rgba(60, 211, 252, 0.4));
+}
+
+.loading-eye {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  background: var(--hyrule-sheikah-blue);
+  box-shadow: 0 0 6px var(--hyrule-sheikah-blue), 0 0 12px rgba(60, 211, 252, 0.4);
+  animation: sheikah-pulse 1.5s ease-in-out infinite;
+}
+
+.loading-tip {
+  font-family: var(--hyrule-font-body);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--hyrule-text-muted);
+  letter-spacing: 0.05em;
+}
+
+/* ==========================================
+   Pagination
+   ========================================== */
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--hyrule-spacing-md);
+  margin-top: var(--hyrule-spacing-3xl);
+  padding: var(--hyrule-spacing-xl) 0;
+}
+
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  height: 36px;
+  padding: 0 var(--hyrule-spacing-sm);
+  font-family: var(--hyrule-font-body);
+  font-size: 0.85rem;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--hyrule-text-muted);
+  text-decoration: none;
+  border-radius: var(--hyrule-radius-sm);
+  border: 1px solid transparent;
+  transition: all var(--hyrule-duration-fast);
+}
+
+.pagination a:hover {
+  color: var(--hyrule-sheikah-blue);
+  border-color: rgba(60, 211, 252, 0.3);
+  text-shadow: none;
+}
+
+.pagination .current {
+  color: var(--hyrule-sheikah-blue);
+  border-color: rgba(60, 211, 252, 0.4);
+  background: rgba(60, 211, 252, 0.08);
+}
+
+/* ==========================================
+   Splash / Loading Screen
+   ========================================== */
+
+.splash-screen {
+  position: fixed;
+  inset: 0;
+  z-index: var(--hyrule-z-splash);
+  background: #0a1628;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--hyrule-spacing-2xl);
+}
+
+.splash-screen.exit {
+  animation: splash-exit 0.8s var(--hyrule-ease-in) forwards;
+  pointer-events: none;
+}
+
+.splash-symbol {
+  width: 120px;
+  height: 120px;
+  opacity: 0.3;
+  animation: splash-symbol-pulse 2s ease-in-out infinite;
+}
+
+.splash-text {
+  font-family: var(--hyrule-font-title);
+  font-size: 1.2rem;
+  color: rgba(233, 225, 209, 0.5);
+  font-style: italic;
+  letter-spacing: 0.06em;
+  animation: splash-text-fade 2s ease-in-out infinite;
+}
+
+.splash-loading-ring {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid rgba(60, 211, 252, 0.15);
+  border-top-color: var(--hyrule-sheikah-blue);
+  animation: sheikah-spin 1s linear infinite;
+}
+
+/* ==========================================
+   Single Post Page
+   ========================================== */
+
+.post-header {
+  text-align: center;
+  padding: var(--hyrule-spacing-3xl) 0 var(--hyrule-spacing-2xl);
+}
+
+.post-title {
+  font-family: var(--hyrule-font-title);
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--hyrule-tan);
+  margin-bottom: var(--hyrule-spacing-md);
+  letter-spacing: 0.04em;
+  line-height: 1.3;
+}
+
+.post-date {
+  font-size: 0.85rem;
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(60, 211, 252, 0.5);
+  margin-bottom: var(--hyrule-spacing-md);
+}
+
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--hyrule-spacing-sm);
+  margin-bottom: var(--hyrule-spacing-lg);
+}
+
+.post-content {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+}
+
+.post-content h1 { font-size: 1.8rem; }
+.post-content h2 { font-size: 1.4rem; }
+.post-content h3 { font-size: 1.15rem; }
+
+.post-content p {
+  margin-bottom: 1.2em;
+}
+
+.post-content ul,
+.post-content ol {
+  margin-bottom: 1.2em;
+  padding-left: 1.5em;
+}
+
+.post-content li {
+  margin-bottom: 0.4em;
+}
+
+.post-content a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ==========================================
+   Layout
+   ========================================== */
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 var(--hyrule-spacing-xl);
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--hyrule-spacing-lg);
+  padding: var(--hyrule-spacing-2xl) 0;
+}
+
+/* ==========================================
+   Hero Section (Home Page)
+   ========================================== */
+
+.hero {
+  text-align: center;
+  padding: var(--hyrule-spacing-3xl) 0;
+}
+
+.hero-symbol {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto var(--hyrule-spacing-lg);
+  opacity: 0.3;
+}
+
+.hero-title {
+  font-family: var(--hyrule-font-title);
+  font-size: 3rem;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--hyrule-tan);
+  margin-bottom: var(--hyrule-spacing-sm);
+  letter-spacing: 0.06em;
+  text-shadow: var(--hyrule-shadow-tan);
+}
+
+.hero-subtitle {
+  font-family: var(--hyrule-font-body);
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-style: italic;
+  color: rgba(233, 225, 209, 0.5);
+  letter-spacing: 0.03em;
+}
+
+/* ==========================================
+   Divider (sheikah style)
+   ========================================== */
+
+.divider-sheikah {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--hyrule-sheikah-blue), transparent);
+  box-shadow: 0 0 6px rgba(60, 211, 252, 0.3);
+  margin: var(--hyrule-spacing-2xl) 0;
+}
+
+.divider-subtle {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(226, 222, 211, 0.2), transparent);
+  margin: var(--hyrule-spacing-xl) 0;
+}
+
+/* ==========================================
+   Responsive
+   ========================================== */
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 var(--hyrule-spacing-lg);
+  }
+
+  .post-card {
+    padding: var(--hyrule-spacing-lg);
+  }
+
+  .post-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .header-inner {
+    padding: 0 var(--hyrule-spacing-lg);
+  }
+
+  .site-nav {
+    gap: var(--hyrule-spacing-lg);
+  }
+}
+
+@media (max-width: 480px) {
+  .post-title {
+    font-size: 1.3rem;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+  }
+
+  .hyrule-card {
+    padding: var(--hyrule-spacing-lg);
+  }
+
+  .site-logo {
+    font-size: 0.95rem;
+  }
+
+  .site-nav a {
+    font-size: 0.75rem;
+  }
+}

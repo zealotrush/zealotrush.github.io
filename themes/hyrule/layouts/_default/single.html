@@ -1,0 +1,41 @@
+{{ define "main" }}
+<div class="container">
+  <!-- Post Header -->
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+    <div class="post-date">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+      {{ if .Params.author }}&middot; {{ .Params.author }}{{ end }}
+    </div>
+    {{ with .Params.tags }}
+      <div class="post-tags">
+        {{ range . }}
+          <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}" class="post-card-tag">{{ . }}</a>
+        {{ end }}
+      </div>
+    {{ end }}
+    <hr class="divider-sheikah">
+  </header>
+
+  <!-- Post Content -->
+  <div class="hyrule-card sheikah">
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="pagination" style="margin-top: var(--hyrule-spacing-3xl);">
+    {{ with .PrevInSection }}
+      <a href="{{ .RelPermalink }}" class="hyrule-btn ghost" style="height: 40px; font-size: 0.85rem; padding: 0 var(--hyrule-spacing-lg);">
+        &larr; {{ .Title | truncate 30 }}
+      </a>
+    {{ end }}
+    {{ with .NextInSection }}
+      <a href="{{ .RelPermalink }}" class="hyrule-btn ghost" style="height: 40px; font-size: 0.85rem; padding: 0 var(--hyrule-spacing-lg);">
+        {{ .Title | truncate 30 }} &rarr;
+      </a>
+    {{ end }}
+  </nav>
+</div>
+{{ end }}

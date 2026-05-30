@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+  {{ if .Description }}<meta name="description" content="{{ .Description }}">{{ end }}
+
+  <!-- Google Fonts: Cinzel + Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <!-- Theme CSS -->
+  {{ $tokens := resources.Get "css/tokens.css" }}
+  {{ $animations := resources.Get "css/animations.css" }}
+  {{ $base := resources.Get "css/base.css" }}
+  {{ $components := resources.Get "css/components.css" }}
+  {{ $css := slice $tokens $animations $base $components | resources.Concat "css/hyrule.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
+  {{ if .Site.Params.math }}
+  <!-- KaTeX for math rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, { delimiters: [
+        {left: "$$", right: "$$", display: true},
+        {left: "$", right: "$", display: false}
+      ]});
+    });
+  </script>
+  {{ end }}
+
+  {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+</head>
+<body>
+  <!-- Splash Screen -->
+  {{ partial "loading-splash.html" . }}
+
+  <!-- Sheikah Background -->
+  <div class="sheikah-bg">
+    <div class="sheikah-bg-texture"></div>
+    <div class="sheikah-scanlines animated" style="opacity: 0.08;"></div>
+    <div class="sheikah-bg-content">
+      {{ partial "header.html" . }}
+      <main>
+        {{ block "main" . }}{{ end }}
+      </main>
+      {{ partial "footer.html" . }}
+    </div>
+  </div>
+
+  <!-- Splash Screen Script -->
+  <script>
+  (function() {
+    var splash = document.getElementById('splash-screen');
+    if (!splash) return;
+
+    // Check if we should skip splash (e.g., user has visited)
+    var visited = sessionStorage.getItem('hyrule-visited');
+    if (visited) {
+      splash.style.display = 'none';
+      return;
+    }
+
+    // Mark as visited
+    sessionStorage.setItem('hyrule-visited', '1');
+
+    // Hide splash after animation completes
+    var duration = {{ .Site.Params.splashDuration | default 2000 }};
+    setTimeout(function() {
+      splash.classList.add('exit');
+      setTimeout(function() {
+        splash.style.display = 'none';
+      }, 800); // match CSS animation duration
+    }, duration);
+  })();
+  </script>
+</body>
+</html>

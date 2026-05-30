@@ -1,0 +1,19 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a href="{{ .Site.BaseURL | relLangURL }}" class="site-logo">{{ .Site.Title }}</a>
+    <nav>
+      <div class="site-nav">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+          <a href="{{ .URL | relLangURL }}" {{ if $currentPage.IsMenuCurrent "main" . }}class="active"{{ end }}>
+            {{ .Name }}
+          </a>
+        {{ end }}
+        {{ if not .Site.Menus.main }}
+          <a href="{{ "posts" | relLangURL }}" {{ if hasPrefix $currentPage.RelPermalink "/posts" }}class="active"{{ end }}>Posts</a>
+          <a href="{{ "about" | relLangURL }}" {{ if hasPrefix $currentPage.RelPermalink "/about" }}class="active"{{ end }}>About</a>
+        {{ end }}
+      </div>
+    </nav>
+  </div>
+</header>

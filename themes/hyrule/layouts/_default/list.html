@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div class="container">
+  <!-- Sheikah Title -->
+  <div class="sheikah-title" style="padding-top: var(--hyrule-spacing-3xl); margin-bottom: var(--hyrule-spacing-xl);">
+    <div class="sheikah-title-row">
+      <span class="sheikah-title-ornament">&diams;</span>
+      <h1 class="sheikah-title-text">{{ .Title }}</h1>
+      <span class="sheikah-title-ornament">&diams;</span>
+    </div>
+    {{ with .Description }}
+      <p class="sheikah-title-desc">{{ . }}</p>
+    {{ end }}
+  </div>
+
+  <hr class="divider-sheikah">
+
+  <div class="post-list">
+    {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="post-card">
+        <h3 class="post-card-title">{{ .Title }}</h3>
+        <div class="post-card-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+        </div>
+        {{ if .Summary }}
+          <div class="post-card-summary">
+            {{ .Summary | truncate 200 }}
+          </div>
+        {{ end }}
+      </a>
+    {{ end }}
+  </div>
+
+  {{ template "_internal/pagination.html" . }}
+</div>
+{{ end }}

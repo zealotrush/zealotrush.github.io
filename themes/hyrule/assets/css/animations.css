@@ -1,0 +1,88 @@
+/* ============================================
+   Hyrule Hugo Theme - Keyframe Animations
+   ============================================ */
+
+/* ---- Fade & Scale ---- */
+@keyframes hyrule-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes hyrule-fade-out {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
+@keyframes hyrule-scale-in {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes hyrule-slide-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes hyrule-slide-down {
+  from { opacity: 0; transform: translateY(-12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ---- Sheikah Glow Pulse ---- */
+@keyframes hyrule-glow-pulse {
+  0%, 100% { box-shadow: 0 0 8px #4FC0FF; }
+  50%      { box-shadow: 0 0 10px #4FC0FF, 0 1px 11px #0A8DD7; }
+}
+
+/* ---- Scanline Movement ---- */
+@keyframes hyrule-scan-move {
+  0%   { background-position: 0 0; }
+  100% { background-position: 0 200px; }
+}
+
+/* ---- Sheikah Eye Spin & Pulse ---- */
+@keyframes sheikah-spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes sheikah-pulse {
+  0%, 100% { opacity: 0.6; transform: scale(0.8); }
+  50%      { opacity: 1; transform: scale(1); }
+}
+
+/* ---- Blink (for continue arrows etc.) ---- */
+@keyframes hyrule-blink {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0; }
+}
+
+/* ---- Splash Screen Exit ---- */
+@keyframes splash-symbol-pulse {
+  0%   { opacity: 0.3; transform: scale(1); }
+  50%  { opacity: 0.6; transform: scale(1.05); }
+  100% { opacity: 0.3; transform: scale(1); }
+}
+
+@keyframes splash-text-fade {
+  0%   { opacity: 0; }
+  50%  { opacity: 1; }
+  70%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes splash-exit {
+  0%   { opacity: 1; }
+  100% { opacity: 0; visibility: hidden; }
+}
+
+/* ---- Post Card Entrance ---- */
+@keyframes post-card-enter {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

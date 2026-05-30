@@ -1,0 +1,90 @@
+/* ============================================
+   Hyrule Hugo Theme - Design Tokens
+   Extracted from zelda-hyrule-ui (chaos-xxl)
+   Original design: Hunter Paramore's Zelda BOTW UI Kit
+   ============================================ */
+
+:root {
+  /* ---- Typography ---- */
+  --hyrule-font-title: 'Hylia Serif', 'Cinzel', Georgia, serif;
+  --hyrule-font-body: 'Roboto', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  --hyrule-font-mono: 'Roboto Mono', 'SF Mono', Consolas, 'Courier New', monospace;
+
+  /* ---- Core Colors ---- */
+  --hyrule-tan:            #E2DED3;
+  --hyrule-dark-bg:        #66645D;
+  --hyrule-black:          #000000;
+  --hyrule-loading-white:  #FFFDE4;
+
+  /* ---- Text Colors ---- */
+  --hyrule-text-main:      #E9E1D1;
+  --hyrule-text-yellow:    #E2D146;
+  --hyrule-text-red:       #F15050;
+  --hyrule-text-green:     #6FD49C;
+  --hyrule-text-muted:     rgba(233, 225, 209, 0.6);
+
+  /* ---- Sheikah Colors ---- */
+  --hyrule-sheikah-blue:       #3CD3FC;
+  --hyrule-sheikah-blue-dark:  #0A8DD7;
+  --hyrule-sheikah-blue-glow:  #4FC0FF;
+  --hyrule-sheikah-yellow:     #FFE460;
+  --hyrule-sheikah-white-glow: #BAEFFB;
+
+  /* ---- Effect Colors ---- */
+  --hyrule-effect-orange:  #FCC413;
+  --hyrule-golden-glow-1:  #FFB800;
+  --hyrule-golden-glow-2:  #FFDB7E;
+  --hyrule-golden-glow-3:  #FFB904;
+
+  /* ---- Backgrounds ---- */
+  --hyrule-bg-page:        #66645D;
+  --hyrule-bg-card:        rgba(0, 0, 0, 0.6);
+  --hyrule-bg-sheikah:     rgba(10, 20, 40, 0.85);
+  --hyrule-bg-sheikah-dark:# #0a1628;
+  --hyrule-bg-menu:        rgba(0, 0, 0, 0.85);
+  --hyrule-bg-item-slot:   rgba(60, 58, 52, 0.8);
+
+  /* ---- Borders ---- */
+  --hyrule-border:             rgba(226, 222, 211, 0.3);
+  --hyrule-border-active:      #E2DED3;
+  --hyrule-border-sheikah:     rgba(60, 211, 252, 0.4);
+
+  /* ---- Shadows & Glows ---- */
+  --hyrule-shadow-dark:    0 0 11px rgba(0, 0, 0, 0.8);
+  --hyrule-shadow-subtle:  -2px 2px 10px rgba(0, 0, 0, 0.15);
+  --hyrule-shadow-tan:     0 0 20px #000, 0 0 14px #E2DED3;
+  --hyrule-glow-blue:      0 0 8px #4FC0FF;
+  --hyrule-glow-sheikah:   0 0 10px #4FC0FF, 0 1px 11px #0A8DD7;
+  --hyrule-glow-golden:    0 0 6px #FFB800, 0 0 8px #FFDB7E, 0 0 10px #FFB904;
+  --hyrule-glow-hover:     inset 0 0 7px 3px rgba(246, 231, 152, 0.5), 0 0 12px 1px rgba(227, 227, 200, 0.8);
+  --hyrule-glow-wide-blue: 0 0 34px rgba(255, 255, 255, 0.4), 0 0 30px #32A7E9;
+
+  /* ---- Spacing ---- */
+  --hyrule-spacing-xs:  4px;
+  --hyrule-spacing-sm:  8px;
+  --hyrule-spacing-md:  12px;
+  --hyrule-spacing-lg:  16px;
+  --hyrule-spacing-xl:  24px;
+  --hyrule-spacing-2xl: 32px;
+  --hyrule-spacing-3xl: 48px;
+
+  /* ---- Border Radius ---- */
+  --hyrule-radius-sm:    4px;
+  --hyrule-radius-md:    8px;
+  --hyrule-radius-lg:    12px;
+  --hyrule-radius-xl:    16px;
+  --hyrule-radius-round: 50%;
+
+  /* ---- Animation ---- */
+  --hyrule-duration-fast:  0.15s;
+  --hyrule-duration-base:  0.25s;
+  --hyrule-duration-slow:  0.4s;
+  --hyrule-ease:           cubic-bezier(0.4, 0, 0.2, 1);
+  --hyrule-ease-out:       cubic-bezier(0, 0, 0.2, 1);
+  --hyrule-ease-in:        cubic-bezier(0.4, 0, 1, 1);
+
+  /* ---- Z-Index ---- */
+  --hyrule-z-header:  100;
+  --hyrule-z-splash:  9999;
+  --hyrule-z-modal:   1000;
+}
