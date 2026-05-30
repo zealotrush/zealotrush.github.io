@@ -5,6 +5,11 @@ title = 'Zihuatanejo'
 author = '王备'
 theme = 'hyrule'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [markup.highlight]
 noClasses = false
 

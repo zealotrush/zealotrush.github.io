@@ -11,7 +11,12 @@
     {{ end }}
   </section>
 
-  <hr class="divider-sheikah">
+  <!-- Ornamented Divider -->
+  <div class="divider-ornament">
+    <img src="{{ "svg/title-ornament-left.svg" | relURL }}" alt="" aria-hidden="true">
+    <div class="divider-ornament-line"></div>
+    <img src="{{ "svg/title-ornament-right.svg" | relURL }}" alt="" aria-hidden="true">
+  </div>
 
   <!-- Sheikah Title -->
   <div class="sheikah-title" style="margin-bottom: var(--hyrule-spacing-xl);">
@@ -28,7 +33,10 @@
   <div class="post-list">
     {{ range $pages }}
       <a href="{{ .RelPermalink }}" class="post-card" style="animation-delay: {{ mul .ReadingTime 0.05 | lang.FormatNumber 1 }}s">
-        <h3 class="post-card-title">{{ .Title }}</h3>
+        <h3 class="post-card-title-row">
+          <img class="quest-marker" src="{{ "svg/quest-marker.svg" | relURL }}" alt="" aria-hidden="true">
+          <span class="post-card-title">{{ .Title }}</span>
+        </h3>
         <div class="post-card-meta">
           <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
         </div>

@@ -801,6 +801,126 @@
 }
 
 /* ==========================================
+   Ornamented Divider
+   ========================================== */
+
+.divider-ornament {
+  display: flex;
+  align-items: center;
+  gap: var(--hyrule-spacing-md);
+  margin: var(--hyrule-spacing-2xl) 0;
+}
+
+.divider-ornament img {
+  width: 50px;
+  height: 25px;
+  opacity: 0.6;
+  flex-shrink: 0;
+}
+
+.divider-ornament-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(226,222,211,0.5), rgba(226,222,211,0.1), rgba(226,222,211,0.5));
+}
+
+/* ==========================================
+   Quest Marker (post list decoration)
+   ========================================== */
+
+.quest-marker {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  opacity: 0.5;
+  transition: opacity var(--hyrule-duration-base);
+}
+
+.post-card:hover .quest-marker {
+  opacity: 0.9;
+  filter: drop-shadow(0 0 4px var(--hyrule-sheikah-blue-glow));
+}
+
+.post-card-title-row {
+  display: flex;
+  align-items: center;
+  gap: var(--hyrule-spacing-sm);
+}
+
+/* ==========================================
+   Corner Ornament
+   ========================================== */
+
+.corner-ornament {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+.corner-ornament.tl { top: 6px; left: 6px; }
+.corner-ornament.tr { top: 6px; right: 6px; transform: scaleX(-1); }
+.corner-ornament.bl { bottom: 6px; left: 6px; transform: scaleY(-1); }
+.corner-ornament.br { bottom: 6px; right: 6px; transform: scale(-1, -1); }
+
+/* ==========================================
+   Starburst Decorative Accent
+   ========================================== */
+
+.starburst-accent {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  opacity: 0.08;
+  pointer-events: none;
+}
+
+/* ==========================================
+   About Page
+   ========================================== */
+
+.about-section {
+  margin-bottom: var(--hyrule-spacing-2xl);
+}
+
+.about-section-header {
+  display: flex;
+  align-items: center;
+  gap: var(--hyrule-spacing-md);
+  margin-bottom: var(--hyrule-spacing-lg);
+  padding-bottom: var(--hyrule-spacing-sm);
+  border-bottom: 1px solid rgba(60, 211, 252, 0.15);
+}
+
+.about-section-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
+.about-section-title {
+  font-family: var(--hyrule-font-body);
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--hyrule-sheikah-blue);
+  letter-spacing: 0.04em;
+}
+
+.about-section-body {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'STSongti', 'Songti SC', serif;
+  font-size: 0.95rem;
+  line-height: 1.9;
+  color: rgba(233, 225, 209, 0.8);
+}
+
+.about-section-body p {
+  margin-bottom: 0.8em;
+}
+
+/* ==========================================
    Responsive
    ========================================== */
 
