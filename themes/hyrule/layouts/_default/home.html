@@ -31,22 +31,7 @@
         <h3 class="post-card-title">{{ .Title }}</h3>
         <div class="post-card-meta">
           <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-          {{ if .Params.author }}
-            <span>{{ .Params.author }}</span>
-          {{ end }}
         </div>
-        {{ if .Summary }}
-          <div class="post-card-summary">
-            {{ .Summary | truncate 200 }}
-          </div>
-        {{ end }}
-        {{ with .Params.tags }}
-          <div class="post-card-tags">
-            {{ range . }}
-              <span class="post-card-tag">{{ . }}</span>
-            {{ end }}
-          </div>
-        {{ end }}
       </a>
     {{ end }}
   </div>

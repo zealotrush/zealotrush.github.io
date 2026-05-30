@@ -210,10 +210,10 @@
 }
 
 .hyrule-card-body {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'STSongti', 'Songti SC', serif;
   font-size: 0.875rem;
-  font-weight: 500;
-  font-style: italic;
-  line-height: 1.6;
+  font-weight: 400;
+  line-height: 1.8;
   color: rgba(233, 225, 209, 0.8);
 }
 
@@ -366,10 +366,10 @@
 }
 
 .post-card-title {
-  font-family: var(--hyrule-font-title);
+  font-family: var(--hyrule-font-body);
   font-size: 1.25rem;
-  font-weight: 400;
-  font-style: normal;
+  font-weight: 500;
+  font-style: italic;
   color: var(--hyrule-tan);
   margin-bottom: var(--hyrule-spacing-sm);
   letter-spacing: 0.04em;
@@ -387,7 +387,6 @@
   margin-bottom: var(--hyrule-spacing-md);
   font-size: 0.8rem;
   font-weight: 400;
-  font-style: italic;
   color: var(--hyrule-text-muted);
 }
 
@@ -396,10 +395,10 @@
 }
 
 .post-card-summary {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'STSongti', 'Songti SC', serif;
   font-size: 0.9rem;
-  font-weight: 500;
-  font-style: italic;
-  line-height: 1.6;
+  font-weight: 400;
+  line-height: 1.8;
   color: rgba(233, 225, 209, 0.7);
 }
 
@@ -413,7 +412,6 @@
 .post-card-tag {
   font-size: 0.7rem;
   font-weight: 400;
-  font-style: italic;
   padding: 2px 8px;
   border-radius: var(--hyrule-radius-sm);
   background: rgba(60, 211, 252, 0.1);
@@ -505,6 +503,7 @@
 }
 
 .footer-inner {
+  font-family: var(--hyrule-font-body);
   max-width: 720px;
   margin: 0 auto;
   font-size: 0.75rem;
@@ -665,10 +664,10 @@
 }
 
 .post-title {
-  font-family: var(--hyrule-font-title);
+  font-family: var(--hyrule-font-body);
   font-size: 2rem;
-  font-weight: 400;
-  font-style: normal;
+  font-weight: 500;
+  font-style: italic;
   color: var(--hyrule-tan);
   margin-bottom: var(--hyrule-spacing-md);
   letter-spacing: 0.04em;
@@ -678,7 +677,6 @@
 .post-date {
   font-size: 0.85rem;
   font-weight: 400;
-  font-style: italic;
   color: rgba(60, 211, 252, 0.5);
   margin-bottom: var(--hyrule-spacing-md);
 }
@@ -692,8 +690,9 @@
 }
 
 .post-content {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'STSongti', 'Songti SC', serif;
   font-size: 1rem;
-  line-height: 1.8;
+  line-height: 1.9;
 }
 
 .post-content h1,
