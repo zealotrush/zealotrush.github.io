@@ -3,7 +3,7 @@ languageCode = 'zh-cmn'
 defaultContentLanguage = 'zh-cmn'
 title = 'Zihuatanejo'
 author = '王备'
-theme = 'hyrule'
+theme = 'emacs'
 
 [markup]
   [markup.goldmark]
