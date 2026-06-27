@@ -1265,6 +1265,7 @@ CLOSED: [2026-06-27 Sat 13:46]
 :PROPERTIES:
 :EXPORT_DATE: <2026-06-27 Sat>
 :EXPORT_FILE_NAME: why-i-stay-out-of-the-stock-market
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :math true
 :END:
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2026-06-27 Sat 13:46]
