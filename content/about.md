@@ -15,7 +15,3 @@ Old school。Emacs 用户。会 C，不会 C++。会 MATLAB，不会 Python。�
 对外宣称最爱的游戏是塞尔达旷野之息，但内心真正放不下的其实是魔兽世界 60 年代。
 
 玩游戏曾经有多硬核，现在就有多 ED。曾经 APM 200+，现在手机云通关看 5 分钟睡着。
-
-## 其他
-
-如果对我有点点好奇，可以来[小宇宙](https://www.xiaoyuzhoufm.com/podcast/6893f28ed302c0cbf5d9ba1e)播客听我念经。
