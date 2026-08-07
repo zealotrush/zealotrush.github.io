@@ -1407,7 +1407,7 @@ My note-taking hopping history since I started using Emacs in 2021.
 
    As it turned out, org-roam-ui was only useful once.  I don't even remember how many times I have opened it, like five?
 
-   I switched back to my add-link-crazy-mode.  Some links do work fine, like the one with "日产无麦", but most of them are just cosmetic.  I once argued that human minds work like graphs, not trees, and therefore that writing hierarchically was not the correct way to take notes -- bidirectional linking was.  I was wrong!  Human minds /are/ graphs -- that's true.  But humans read, learn, and understand things linearly and hierarchically.  That's why all textbooks and scientific papers are organized like trees, not graphs.
+   I switched back to my add-link-crazy-mode.  Some links do work fine, but most of them are just cosmetic.  I once argued that human minds work like graphs, not trees, and therefore that writing hierarchically was not the correct way to take notes -- bidirectional linking was.  I was wrong!  Human minds /are/ graphs -- that's true.  But humans read, learn, and understand things linearly and hierarchically.  That's why all textbooks and scientific papers are organized like trees, not graphs.
 
    I watched some Prot's videos about denote on YouTube, and decided to hop back.  Again!
 
