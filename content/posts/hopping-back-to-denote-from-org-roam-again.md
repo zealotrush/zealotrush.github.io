@@ -6,7 +6,7 @@ draft = false
 math = true
 +++
 
-This is an entry -- actually the very first entry -- from my notes.  Because it is a personal note, it lacks background information and tells jokes that only makes sense to myself.  However, I still want to put it here and hope someone would find it interesting.
+This is an entry -- actually the very first entry -- from my notes.  Because it is a personal note, it lacks background information and tells jokes that only make sense to myself.  However, I still want to put it here and hope someone would find it interesting.
 
 ---
 
