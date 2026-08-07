@@ -50,4 +50,4 @@ My note-taking hopping history since I started using Emacs in 2021.
 
     Denote now has some cool new features, like dynamic blocks.  It's actually not a new feature at all, as it has been built into org-mode for a long time.  Denote also supports signatures, which can be used to practice the folgezettel scheme from Luhmann.  I had tried the Zettelkasten method before, without success, but that's because I was still in human-minds-are-graphs-mode.  Now, I think it's time to try it again.
 
-    Luhmann, Prot and I, sitting in a tree!
+    Luhmann, Prot and I, sitting in a _tree_!
