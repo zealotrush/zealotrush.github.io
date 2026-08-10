@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" data-theme="dark">
+<head>
+  {{- /* EWW/no-JS fallback: add 'js' class before any stylesheet applies, so
+        real browsers get the full Emacs UI while EWW (no JS, no external CSS)
+        gets the minimal view. */ -}}
+  <script>document.documentElement.classList.add('js');</script>
+  {{- partial "head.html" . -}}
+  <style>
+    /* Browser-only restore rules (EWW ignores <style> tags entirely).
+       Inline display:none on .eww-hide / .modeline is what EWW honors. */
+    html.js .simple-site-header { display: none !important; }
+    html.js .eww-hide           { display: contents !important; }
+    html.js .modeline           { display: flex !important; }
+  </style>
+</head>
+<body>
+  {{- /* Minimal header, shown only in EWW / no-JS browsers */ -}}
+  <header class="simple-site-header">
+    <div class="simple-site-title"><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></div>
+    <nav class="simple-site-nav">
+      <a href="{{ "/" | relURL }}">Home</a> · <a href="{{ "/about/" | relURL }}">About</a> · <a href="{{ "/contact/" | relURL }}">Contact</a>
+    </nav>
+  </header>
+  <div class="emacs-frame">
+    <div class="eww-hide" style="display:none">{{- partial "menu-bar.html" . -}}</div>
+    
+    <main class="buffer-container" id="buffer-container">
+      {{- block "main" . }}
+      {{- end }}
+    </main>
+    
+    <div class="eww-hide" style="display:none">{{- partial "echo-area.html" . -}}</div>
+  </div>
+  
+  <div class="eww-hide" style="display:none">{{- partial "help-overlay.html" . -}}</div>
+  
+  {{- $keyboard := resources.Get "js/keyboard.js" | minify -}}
+  {{- $windows := resources.Get "js/windows.js" | minify -}}
+  {{- $menu := resources.Get "js/menu.js" | minify -}}
+  <script src="{{ $keyboard.RelPermalink }}"></script>
+  <script src="{{ $windows.RelPermalink }}"></script>
+  <script src="{{ $menu.RelPermalink }}"></script>
+</body>
+</html>

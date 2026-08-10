@@ -1,0 +1,74 @@
+{{- /*
+  Modeline partial - Emacs-style modeline
+  
+  Parameters:
+  - .buffer: Buffer name to display
+  - .mode: Major mode name (e.g., "Org", "Text")
+  - .readonly: Boolean, whether buffer is read-only
+  - .position: Optional position info
+  - .keyhint: Optional keyboard hint to show
+*/ -}}
+
+{{- $buffer := .buffer | default "*scratch*" -}}
+{{- $mode := .mode | default "Fundamental" -}}
+{{- $readonly := .readonly | default true -}}
+{{- $keyhint := .keyhint | default "" -}}
+
+{{- /* inline display:none hides the modeline in EWW (which ignores external
+       CSS); html.js .modeline in baseof.html restores it in real browsers */ -}}
+<div class="modeline modeline-emacs-style" role="status" aria-live="polite" style="display:none">
+  <div class="ml-left">
+    {{- /* Leading dash */ -}}
+    <span class="ml-dash">-</span>
+    
+    {{- /* Encoding indicator (U = UTF-8) */ -}}
+    <span class="ml-encoding-triplet" title="UTF-8 encoding">U</span>
+    <span class="ml-encoding-triplet">U</span>
+    <span class="ml-encoding-triplet">U</span>
+    
+    {{- /* Colon separator */ -}}
+    <span class="ml-colon">:</span>
+    
+    {{- /* Status indicator */ -}}
+    {{- if $readonly -}}
+    <span class="ml-status readonly" title="Read-only">%%</span>
+    {{- else -}}
+    <span class="ml-status" title="Unmodified">--</span>
+    {{- end -}}
+    
+    {{- /* Frame indicator */ -}}
+    <span class="ml-frame">-F1</span>
+    
+    {{- /* Space */ -}}
+    <span class="ml-space"></span>
+    <span class="ml-space"></span>
+    
+    {{- /* Buffer name */ -}}
+    <span class="modeline-buffer-name" title="{{ $buffer }}">{{ $buffer }}</span>
+  </div>
+  
+  {{- /* Spacer with dashes */ -}}
+  <span class="modeline-fill" aria-hidden="true"></span>
+  
+  <div class="ml-right">
+    {{- /* Position indicator */ -}}
+    <span class="ml-percentage" data-scroll-position>All</span>
+    
+    {{- /* Line number */ -}}
+    <span class="ml-space"></span>
+    <span class="ml-line">L<span data-line-number>1</span></span>
+    
+    {{- /* Mode */ -}}
+    <span class="ml-space"></span>
+    <span class="ml-space"></span>
+    <span class="modeline-mode">{{ $mode }}</span>
+    
+    {{- /* Trailing dashes */ -}}
+    <span class="modeline-fill" aria-hidden="true"></span>
+  </div>
+  
+  {{- /* Keyboard hint (optional) */ -}}
+  {{- if $keyhint }}
+  <span class="modeline-keyhint">{{ $keyhint | safeHTML }}</span>
+  {{- end }}
+</div>
