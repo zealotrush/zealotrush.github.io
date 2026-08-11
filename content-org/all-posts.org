@@ -1418,3 +1418,42 @@ My note-taking hopping history since I started using Emacs in 2021.
    Denote now has some cool new features, like dynamic blocks.  It's actually not a new feature at all, as it has been built into org-mode for a long time.  Denote also supports signatures, which can be used to practice the folgezettel scheme from Luhmann.  I had tried the Zettelkasten method before, without success, but that's because I was still in human-minds-are-graphs-mode.  Now, I think it's time to try it again.
 
    Luhmann, Prot and I, sitting in a /tree/!
+
+** DONE The piano is ready
+CLOSED: [2026-08-11 Tue 15:49]
+:PROPERTIES:
+:EXPORT_DATE:
+:EXPORT_FILE_NAME: the-piano-is-ready
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-08-11 Tue 15:49]
+:END:
+
+So am I!
+
+I don't think of myself as a complete novice.  Here are my /major/ strengths.
+
++ I can sight-sing using numbered notation (jianpu) -- but I don't know the staff notation.
++ I can play the piano one-handed, but just the melody -- I can't do the chords.
++ I have relative pitch, but no absolute pitch, I guess.
++ I am a professional audio algorithm engineer, and know frequency and pitch well.
+
+
+And some /minor/ strengths.
+
++ I am good at fighting games, e.g., Street Fighter 2, and hardcore RTS games, e.g., StarCraft 1.  My APM (actions per minute) is 180+.  I mean, my fingers and the minds that control them are both strong.
++ My typing speed is fast.  ~180 characters per minute in Chinese with Wubi86.  I mean, I play /this/ keyboard very well.  I probably can play /that/ keyboard equally well.
++ I am a good learner.  I know what it takes, and how it feels, to learn.
+
+
+However, I do have my weaknesses.
+
++ I am not a diligent person.  I /can/ learn well, but more often than not, I don't /want/ to.
++ I have too little time, and too many interests.  I play video games.  I play Emacs -- that's right, play.  I play AI.
+
+
+
+With these in mind, here are my goals for learning piano.
+
++ Play it for fun.
++ Take it seriously.
